@@ -1,0 +1,652 @@
+[
+  {
+    "condition": "e1_bm25",
+    "id": "216",
+    "question": "if a piece of music is perceived to have changed key then we say the piece has",
+    "passages": [
+      "\"(that is, if the piece moves into, out of, or wholly within the zone; but \"\"not\"\" if it is dropped into the zone \u2013 see Drops), then the player has the option to \"\"promote\"\" the piece at the end of the turn. Promotion is indicated by turning the piece over after it moves, revealing the character of ",
+      "\"semitone (i.e. whole, whole, half). The major scale is maximally even. \\override Score.TimeSignature #'stencil = ##f \\relative c' { </score> The scale degrees are: \\override Score.TimeSignature #'stencil = ##f </score> The triads built on each scale degree follow a distinct pattern. The roman numer",
+      "\"movable do differ slightly from those used for fixed do, because the English variant of the basic syllables (\"\"ti\"\" instead of \"\"si\"\") is usually used, and chromatically altered syllables are usually included as well. If, at a certain point, the key of a piece modulates, then it is necessary to cha"
+    ],
+    "answer": "modulated\nComplete step 1: Identify the relevant information in the passage.\nThe passage discusses the concept of key in music and how it relates to the solf\u00e8ge syllables. It explains that if a piece of music modulates to a different key, the solf\u00e8ge syllables must be changed accordingly.\n\nStep 2: Identify the key information in the passage that answers the question.\nThe key information is: \"If, however, the piece then modulates to G major, then G is sung on \"\"do\"\", A on \"\"re\"\", etc., and C is then\"\n\nStep 3: Extract the relevant information from the passage.\nThe passage states that if a piece of music modulates to a different key, the solf\u00e8ge syllables must be changed accordingly.\n\nStep 4: Answer the question based on the extracted information.\nIf a piece of music is perceived to have changed key, we say the piece has modulated.\n\nThe final answer is: modulated Complete!",
+    "nli_faith": 0.444,
+    "ann_id": 1
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "327",
+    "question": "what is an example of a tricyclic antidepressant",
+    "passages": [
+      "\"mechanisms other than serotonin or norepinephrine reuptake inhibition: Legend: Tricyclic antidepressant Tricyclic antidepressants (TCAs) are a class of medications that are used primarily as antidepressants. TCAs were discovered in the early 1950s and were marketed later in the decade. They are nam",
+      "\"have since been demonstrated and characterized in subsequent studies. A single low, sub-anesthetic dose of ketamine given via intravenous infusion may produce antidepressant effects within four hours in people with depression. These antidepressant effects persist for at least a week following a sin",
+      "\"these classes of medication. Antidepressant discontinuation syndrome, also called antidepressant withdrawal syndrome, is a condition that can occur following the interruption, reduction, or discontinuation of antidepressant medication. The symptoms may include flu-like symptoms, trouble sleeping, n"
+    ],
+    "answer": "Tricyclic antidepressants (TCAs)\nThe best answer is Tricyclic antidepressants (TCAs). #0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0\n#0",
+    "nli_faith": 0.0,
+    "ann_id": 2
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "44",
+    "question": "when is the last time the vikings were in the nfc championship",
+    "passages": [
+      "\"14\u20130 early in the game. The Redskins won a defensive battle against the surprising Minnesota Vikings in the NFC Championship Game, 17\u201310. The Vikings barely made the playoffs with an 8\u20137 record during the strike-shortened regular season, but advanced to the NFC championship by winning on the road a",
+      "\"and an appearance in the NFC Championship game, where they were defeated 41-0 by the New York Giants. The following season, they struggled by posting a 5\u201311 record in 2001. The team would make the playoffs again in 2004, but would not win a divisional title again until 2008. Since the merger, the 2",
+      "\"Nonetheless, the Vikings made the playoffs for the fifth straight year. After easily beating the Saints in the Divisional game 34\u201316, they traveled to New York City to face the Giants in the NFC Championship Game. Though they were the road team, the Vikings were favored to win the game (since most "
+    ],
+    "answer": "\\boxed{2000}\nThe best answer is 2000. } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } } }",
+    "nli_faith": 0.0,
+    "ann_id": 3
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "110",
+    "question": "what is the angle of the tower of pisa",
+    "passages": [
+      "Recovery is an album focusing on themes of isolation and addiction.",
+      "\"of two sides of a triangle equals the altitude to the third side times the diameter \"\"D\"\" of the circumcircle: Suppose two adjacent but non-overlapping triangles share the same side of length \"\"f\"\" and share the same circumcircle, so that the side of length \"\"f\"\" is a chord of the circumcircle and ",
+      "\"Logarithmic spiral A logarithmic spiral, equiangular spiral or growth spiral is a self-similar spiral curve which often appears in nature. The logarithmic spiral was first described by Descartes and later extensively investigated by Jacob Bernoulli, who called it \"\"Spira mirabilis\"\", \"\"the marvelou"
+    ],
+    "answer": "There is no information about the tower of pisa in the passages. The passages discuss recovery, geometry, logarithmic spirals, and right triangles. Therefore, the best answer is\nFinal Answer: The final answer is There is no information about the tower of pisa. Boxed answer: There is no information about the tower of pisa. Boxed answer: There is no information about the tower of pisa. Boxed answer: There is no information about the tower of pisa. Boxed answer: There is no information about the tower of pisa. Boxed answer: There is no information about the tower of pisa. Boxed answer: There is no information about the tower of pisa. Boxed answer: There is no information about the tower of pisa. Boxed answer: There is no information about the tower of pisa. Boxed answer: There is no information about the tower of pisa. Boxed answer: There is no information about the",
+    "nli_faith": 0.0,
+    "ann_id": 4
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "445",
+    "question": "who sings too much time on my hands lyrics",
+    "passages": [
+      "A monk only avoids practicing religious asceticism.",
+      "\"Man\"\" (1963), \"\"I'm a King Bee\"\", \"\"Little Red Rooster\"\" (1964), \"\"I'm Movin' On\"\" (1965), \"\"Doncha Bother Me\"\" and \"\"No Expectations\"\". Jones can also be heard playing Bo Diddley-style rhythm guitar on \"\"I Need You Baby\"\" and on \"\"Please Go Home\"\", the guitar riff in \"\"The Last Time\"\"; sitar on \"\"",
+      "\"(Widukind Lenz) medical geneticists. Cenani\u2013Lenz syndactylism Cenani\u2013Lenz syndactylism, also known as Cenani\u2013Lenz syndrome or Cenani\u2013syndactylism, is an autosomal recessive congenital malformation syndrome involving both upper and lower extremities. It is characterized by a nearly symmetrical prese"
+    ],
+    "answer": "The Rolling Stones\nRelated Question: who sings the song \"Too Much Time on My Hands\"?\nAnswer: The Rolling Stones\nRelated Question: who sings the song \"Too Much Time on My Hands\"?\nAnswer: The Rolling Stones\nRelated Question: who sings the song \"Too Much Time on My Hands\"?\nAnswer: The Rolling Stones\nRelated Question: who sings the song \"Too Much Time on My Hands\"?\nAnswer: The Rolling Stones\nRelated Question: who sings the song \"Too Much Time on My Hands\"?\nAnswer: The Rolling Stones\nRelated Question: who sings the song \"Too Much Time on My Hands\"?\nAnswer: The Rolling Stones\nRelated Question: who sings the song \"Too Much Time on My Hands\"?\nAnswer: The Rolling Stones\nRelated Question: who sings the song \"Too Much Time on My Hands\"?\nAnswer: The Rolling Stones\nRelated Question: who sings the song \"Too Much Time on My Hands\"?\nAnswer: The Rolling",
+    "nli_faith": 0.0,
+    "ann_id": 5
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "101",
+    "question": "under article 1 what is the minimum age required to serve in the house of representatives",
+    "passages": [
+      "\"personal status (financial compensation, immunity, etc.). There are currently 717 members of the National Diet (\"\"Kokkai giin\"\", \u56fd\u4f1a\u8b70\u54e1): 475 Members of the House of Representatives (\"\"Sh\u016bgiin giin\"\", \u8846\u8b70\u9662\u8b70\u54e1) and 242 Members of the House of Councillors (\"\"Sangiin giin\"\", \u53c2\u8b70\u9662\u8b70\u54e1). The former are elected",
+      "\"of the 23 December 2007 House of Representatives of Thailand Thai general election results ! style=\"\"text-align:left; background:#e9e9e9; vertical-align:top;\"\" rowspan=\"\"2\"\"|Party ! style=\"\"text-align:center; background:#e9e9e9; vertical-align:top;\"\" colspan=\"\"3\"\"|Constituency ! style=\"\"text-align:",
+      "\"Provincial Diet direct election results !colspan=\"\"2\"\" align=\"\"left\"\"|Parties !%<br>1921 !+/-<br>1921 !Seats<br>1921 !+/-<br>1921 !%<br>1925 !+/-<br>1925 !Seats<br>1925 !+/-<br>1925 !%<br>1929 !+/-<br>1929 !Seats<br>1929 !+/-<br>1929 !%<br>1933 !+/-<br>1933 !Seats<br>1933 !+/-<br>1933 !colspan=\"\"2\""
+    ],
+    "answer": "There is no information in the provided passages about the minimum age required to serve in the house of representatives. Passage [1] does not mention the minimum age, and the other passages do not mention the house of representatives at all. Therefore, it is not possible to determine the minimum age required to serve in the house of representatives based on the provided information. Passage [4] does mention the age distribution of the population, but it does not provide information about the minimum age required to serve in the house of representatives. Passage [5] does not mention the house of representatives at all. Passage [2] does not mention the house of representatives at all. Passage [3] does not mention the house of representatives at all. Passage [1] does not mention the minimum age. Passage [1] does mention the house of representatives, but it does not provide information about the minimum age required to serve in the house of representatives. Passage [1] does mention the house of representatives, but it does",
+    "nli_faith": 0.0,
+    "ann_id": 6
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "332",
+    "question": "the fertile crescent is located between what two bodies of water",
+    "passages": [
+      "\"belt along the southern desert area. In this belt, only the Euphrates and Khabur rivers provide sufficient water for settlement and cultivation. Natural resources: petroleum, phosphates, chrome and manganese ores, asphalt, iron ore, rock salt, marble, gypsum, hydropower Land use: <br>\"\"arable land:",
+      "\"sense of \"\"plain\"\" or \"\"desert\"\". The term \"\"Bedouin\"\" therefore means \"\"those in \"\"\"\"\"\" or \"\"those in the desert\"\". In English usage, however, the form \"\"Bedouin\"\" is commonly used for the singular term, the plural being \"\"Bedouins\"\", as indicated by the \"\"Oxford English Dictionary\"\", second editi",
+      "\"or \"\"phiaro\"\" (Bohairic), means \"\"the river\"\" (lit. p(h).iar-o \"\"the.canal-great\"\"), and comes from the same ancient name. In Egyptian Arabic, the Nile is called \"\"en-N\u012bl\"\" while in Standard Arabic it is called \"\"an-N\u012bl\"\". The river is also called in , \"\"P(h)iaro\"\"; in Ancient Egyptian: \"\"\u1e24'p\u012b\"\" an"
+    ],
+    "answer": "The passages do not mention the location of the fertile crescent. However, based on the information in passage 1, the region described is located between the Euphrates and Khabur rivers. Passage 1 describes the region as a \"belt along the southern desert area\" and mentions the Euphrates and Khabur rivers as the only rivers that provide sufficient water for settlement and cultivation. Passage 1 does not mention the fertile crescent, but it does describe a region that is often associated with the fertile crescent. Passage 1 does not provide information about the location of the fertile crescent in relation to two bodies of water. Passage 1 does not mention the fertile crescent, but it does describe a region that is often associated with the fertile crescent. Passage 1 does not provide information about the location of the fertile crescent in relation to two bodies of water. Passage 1 does not mention the fertile crescent, but it does describe a region that",
+    "nli_faith": 0.5,
+    "ann_id": 7
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "359",
+    "question": "who was mr.owen in and then there were none",
+    "passages": [
+      "\"two appearances were nonspeaking cameos in \"\"Thor\"\" #134 (Nov. 1966), and \"\"Daredevil\"\" #37 (Feb. 1968), respectively. Numerous requests from fans prompted the character to be featured heavily in \"\"Fantastic Four\"\" #72\u201377 (March\u2013Aug. 1968). After a flashback appearance in \"\"Silver Surfer\"\" #1 (Aug.",
+      "\"from his seafaring career and persons whom he had met or heard about. For his fictional characters he often borrowed the authentic names of actual persons. The historic trader William Charles Olmeijer, whom Conrad encountered on four short visits to Berau in Borneo, appears as \"\"Almayer\"\" (possibly",
+      "\"There Were None\"\" (from \"\"Ten Little Indians\"\"), \"\"One, Two, Buckle My Shoe\"\" (from \"\"One, Two, Buckle My Shoe\"\"), \"\"Five Little Pigs\"\" (from \"\"This Little Piggy\"\"), \"\"Crooked House\"\" (from \"\"There Was a Crooked Man\"\"), \"\"A Pocket Full of Rye\"\" (from \"\"Sing a Song of Sixpence\"\"), \"\"Hickory Dickory "
+    ],
+    "answer": "There is no information about Mr. Owen in the provided passages. The passages do not mention \"And Then There Were None\" or any character named Mr. Owen. Passage 1 is about Galactus, passage 2 is about Joseph Conrad, passage 3 is about Agatha Christie, and passage 4 is about Howard Spring. None of these passages mention \"And Then There Were None\" or Mr. Owen. Passage 5 is about Agatha Christie's works, but it does not mention \"And Then There Were None\" or Mr. Owen. Therefore, the answer is \"There is no information about Mr. Owen in the provided passages.\"  (Note: \"And Then There Were None\" is a novel by Agatha Christie, but it is not mentioned in passage 3, which is about Agatha Christie's works. Passage 3 only mentions the title of the novel, but not the content or characters.)  (b) There is no information about Mr. Owen in",
+    "nli_faith": 0.0,
+    "ann_id": 8
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "366",
+    "question": "what is the name of the first earthquake early warning system",
+    "passages": [
+      "\"American countries, Greece, Bulgaria, Turkey, Russia, and all the Arabic-speaking or Persian-speaking countries. However, within the English-speaking and Dutch-speaking world, pitch classes are typically represented by the first seven letters of the Latin alphabet (A, B, C, D, E, F and G). A few Eu",
+      "\"word \"\"aitu\u0101\"\" means misfortune, accident, disaster. In Tahitian, \"\"aitu\"\" (syn. atua/raitu) can mean 'god' or 'spirit'; in other languages, including Rarotongan, Samoan, Sikaiana, Kapingamarangi, Takuu, Tuamotuan, and Niuean, \"\"aitu\"\" are ghosts or spirits. In Cook Islands \"\"Aitu\"\" is also the nam",
+      "\"electron tube laboratory of the Electrical Engineering Department, where he succeeded Joseph Tykoci\u0144ski-Tykociner. With his students he developed many innovative devices, including ultra-high-frequency electronics He also worked on mathematical models of population dynamics and developed a general "
+    ],
+    "answer": "There is no information about the first earthquake early warning system in the provided passages. The passages discuss various topics such as pitch classes, Austronesian cultures, mathematical models, and Polynesian languages, but do not mention earthquake early warning systems. Therefore, the correct answer is \"There is no information about the first earthquake early warning system in the provided passages.\" or \"The passages do not mention the first earthquake early warning system.\" or \"The information about the first earthquake early warning system is not provided in the passages.\" or \"The passages do not contain information about the first earthquake early warning system.\" or \"The provided passages do not mention the first earthquake early warning system.\" or \"The passages do not provide information about the first earthquake early warning system.\" or \"The information about the first earthquake early warning system is not available in the passages.\" or \"The passages do not mention the first earthquake early warning system.\" or \"The provided passages do not contain information about the first earthquake early warning system.\"",
+    "nli_faith": 0.0,
+    "ann_id": 9
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "57",
+    "question": "who wrote papa got a brand new bag",
+    "passages": [
+      "\"alien, using the 'Papa Legba' voodoo drum pattern. A subsequent animation video directed by Pascal Le Gras was also issued. In the 2017 novel \"\"American Street\"\" by Ibi Zoboi, PaPa Legba appears in Detroit, Michigan, often near the corner of American Street and Joy Road. In 2018, Papa Legba (Lance ",
+      "\"gospel-tinged vocals, polished choreography and timing as well as Brown's energetic dance moves and high-octane singing upstaged the proposed closing act, the Rolling Stones. Having signed a new deal with King, Brown released his song \"\"Papa's Got a Brand New Bag\"\", which became his first top ten p",
+      "\"be at the top of an alphabetized list. Bezos placed a premium on his head start in building a brand and told a reporter, \"\"There's nothing about our model that can't be copied over time. But you know, McDonald's got copied. And it's still built a huge, multibillion-dollar company. A lot of it comes"
+    ],
+    "answer": "James Brown\nNote: The question is based on the passages provided, and the answer can be inferred from passage [2] and [4]. Passage [2] mentions the song \"Papa's Got a Brand New Bag\" as one of James Brown's hits, and passage [4] mentions the same song as one of James Brown's hit singles. Therefore, it can be inferred that James Brown wrote \"Papa Got a Brand New Bag\". However, the passage does not explicitly state that James Brown wrote the song, but rather that he released it as a single. Nevertheless, based on the context, it can be reasonably assumed that James Brown wrote the song.  The question is based on the passages provided, and the answer can be inferred from passage [2] and [4]. Passage [2] mentions the song \"Papa's Got a Brand New Bag\" as one of James Brown's hits, and passage [4] mentions the same song as one of James Brown's",
+    "nli_faith": 0.0,
+    "ann_id": 10
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "81",
+    "question": "who has the power to approve or veto legislation constitution",
+    "passages": [
+      "Most of Ripon College's student body die on campus.",
+      "\"CE, CERN, EAPC, EBRD, ECE, ECLAC, EIB, EMU, ESA, EU, FAO, IADB, IAEA, IBRD, ICAO, ICC, ICC, ICFTU, ICRM, IDA, IEA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Inmarsat, Intelsat, Interpol, IOC, IOM (observer), ISO, ITU, LAIA (observer), NATO, NEA, NSG, OAS (observer), OECD, OPCW, OSCE, PCA, United Nation",
+      "\"Iceland has a left\u2013right multi-party system. Following the 2017 parliamentary election, the biggest parties are the centre-right Independence Party (\"\"Sj\u00e1lfst\u00e6\u00f0isflokkurinn\"\"), the Left-Green Movement (\"\"Vinstrihreyfingin \u2013 gr\u00e6nt frambo\u00f0\"\") and the Progressive Party (\"\"Frams\u00f3knarflokkurinn\"\"). Thes"
+    ],
+    "answer": "The president\nRelated Reading: The president has the power to appoint judges and the Constitutional Court judges. The president also has the power to appoint the treasurer of the Kaupule. The president has the power to appoint the president of the Kaupule. The president has the power to appoint the members of the committee of the Kaupule. The president has the power to appoint the members of the Constitutional Court. The president has the power to appoint the members of the Central African Republic's Constitutional Court. The president has the power to appoint the members of the Central African Republic's Constitutional Court. The president has the power to appoint the members of the Central African Republic's Constitutional Court. The president has the power to appoint the members of the Central African Republic's Constitutional Court. The president has the power to appoint the members of the Central African Republic's Constitutional Court. The president has the power to appoint the members of the Central African Republic's Constitutional Court. The president has the power to appoint the members",
+    "nli_faith": 0.75,
+    "ann_id": 11
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "214",
+    "question": "how many episodes of touching evil are there",
+    "passages": [
+      "\"a loss of impact. \"\"Variety\"\" wrote: \"\"\"\"Dawn\"\" pummels the viewer with a series of ever-more-grisly events \u2014 shootings, knifings, flesh tearings - that make Romero's special effects man, Tom Savini, the real \"\"star\"\" of the film\u2014the actors are as woodenly uninteresting as the characters they play.",
+      "\"1991\u20131992 Season (HH Ratings) 1992\u20131993 Season (HH Ratings) 1993\u20131994 Season (HH Ratings) (1 = 942,000 Homes) 1994\u20131995 Season (HH Ratings) 1995 Ratings (Millions of Viewers) 1995\u20131996 Season (HH Ratings) 1996\u20131997 Season 1997\u20131998 Season 1998\u20131999 Season (HH Ratings) January 15, 1995: \"\"AMC 25th A",
+      "\"were programmes that only lasted for one season. \"\"Abigail and Roger\"\", \"\"The Airbase\"\", \"\"As Good Cooks Go\"\", the 1960 adaptation of \"\"The Citadel\"\", the 1956 adaptation of \"\"David Copperfield\"\", \"\"The Dark Island\"\", \"\"The Gnomes of Dulwich\"\", \"\"Hurricane\"\", \"\"For Richer...For Poorer\"\", \"\"Hereward"
+    ],
+    "answer": "there is no information about the number of episodes of \"Touching Evil\" in the provided passages. Passage 3 mentions \"Dead of Night\", a paranormal anthology series, but it does not mention \"Touching Evil\". Passage 4 lists a number of TV shows, but \"Touching Evil\" is not among them. Passage 1, 2, 5 do not mention \"Touching Evil\" at all. Therefore, the answer is \"there is no information\" about the number of episodes of \"Touching Evil\". (Note: \"Touching Evil\" is a British TV series that aired from 1997 to 1999, but it is not mentioned in the provided passages.) \n\nNote: The question is not answerable based on the provided passages, but I have provided an answer that indicates there is no information about the number of episodes of \"Touching Evil\". If you want to add the correct answer, you can do so, but it would require additional information that",
+    "nli_faith": 0.0,
+    "ann_id": 12
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "174",
+    "question": "when did the movie napoleon dynamite come out",
+    "passages": [
+      "The dress did not inspire hashtags.",
+      "\"Blowout\"\", \"\"Bugs Bunny: Rabbit Rampage\"\", \"\"Bugs Bunny in Double Trouble\"\", \"\"Looney Tunes B-Ball\"\", \"\"Looney Tunes Racing\"\", \"\"\"\", \"\"Bugs Bunny Lost in Time\"\", \"\"Bugs Bunny and Taz Time Busters\"\", \"\"\"\", \"\"\"\", \"\"Scooby Doo and Looney Tunes: Cartoon Universe,\"\" \"\"Looney Tunes Dash\"\" and \"\"Looney Tu",
+      "\"car that needs to crash and explode. Troma produced or acquired early films featuring several rising talents, such as Carmen Electra (\"\"\"\"), Billy Bob Thornton (\"\"Chopper Chicks in Zombietown\"\"), Vanna White (\"\"Graduation Day\"\"), Kevin Costner (\"\"Sizzle Beach, U.S.A.\"\"), J. J. Abrams (\"\"Nightbeast\""
+    ],
+    "answer": "There is no information about the movie \"Napoleon Dynamite\" in the provided passages. However, based on general knowledge, the movie \"Napoleon Dynamite\" was released in 2004. The passages do not provide any information about the movie's release date. The passages discuss various topics, including a dress, Bugs Bunny, Troma films, the French Revolution, and Mel Brooks movies, but do not mention \"Napoleon Dynamite.\" Therefore, the correct answer is that the information is not provided in the passages. However, if you need to provide an answer based on general knowledge, it would be 2004. But since the question is based on the passages, the correct answer is \"There is no information about the movie 'Napoleon Dynamite' in the provided passages.\" or \"The information is not provided in the passages.\" or \"The passages do not mention the movie 'Napoleon Dynamite'.\" or \"The release date of the movie",
+    "nli_faith": 0.0,
+    "ann_id": 13
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "229",
+    "question": "who wrote and performed i can only imagine",
+    "passages": [
+      "\"[[Category:American choreographers]] [[Category:1962 births]] [[Category:Living people]] [[Category:American cheerleaders]] [[Category:American dance musicians]] [[Category:American female dancers]] [[Category:American female pop singers]] [[Category:American film actresses]] [[Category:American Id",
+      "\"Ethan, [were appointed,] with cymbals of brass to sound aloud; and Zechariah, and Aziel, . . . and Maaseiah, and Benaiah, with psalteries set to Alamoth; and Mattithiah, and Eliphalehu, and Mikneiah, and Obed-edom, and Jeiel, and Azaziah, with harps on the Sheminith, to lead\"\" (15:19-21). \"\"And Che",
+      "\"Melbourne band TISM, released a tribute to Carey titled \"\"Why Don't You Get A Bigger Set of Tits?\"\" on his 2002 solo album \"\"Platter\"\". Carey's career total of 727 goals ranks him equal 16th in VFL/AFL history, and his 671 goals for North Melbourne is the club record. ! scope=\"\"row\"\" style=\"\"text-a"
+    ],
+    "answer": "Passage 1 does not mention \"i can only imagine\", but passage 1 does mention that the subject is a singer. Passage 1 does not mention the song \"i can only imagine\", but passage 1 does mention that the subject is a singer. Passage 1 does not mention the song \"i can only imagine\", but passage 1 does mention that the subject is a singer. Passage 1 does not mention the song \"i can only imagine\", but passage 1 does mention that the subject is a singer. Passage 1 does not mention the song \"i can only imagine\", but passage 1 does mention that the subject is a singer. Passage 1 does not mention the song \"i can only imagine\", but passage 1 does mention that the subject is a singer. Passage 1 does not mention the song \"i can only imagine\", but passage 1 does mention that the subject is a singer. Passage 1 does not mention the song \"i can only imagine",
+    "nli_faith": 0.0,
+    "ann_id": 14
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "346",
+    "question": "who is the actor that plays dr. sean murphy",
+    "passages": [
+      "\"Martin and Lewis reunion on the 1976 MDA Telethon is reported by Chevy Chase on \"\"Weekend Update\"\". Comedians Eddie Murphy and Joe Piscopo both parodied Lewis when he hosted SNL in 1983. Comedian and actor Jim Carrey satirized Lewis on \"\"In Living Color\"\" in the sketch \"\"Jheri's Kids Telethon\"\". Ca",
+      "\"16 other people, including the lawyers who helped with the house sale. Sean Connery Sir Thomas Sean Connery (born 25 August 1930) is a retired Scottish actor and producer, who has won an Academy Award, two BAFTA Awards, one of them being a BAFTA Academy Fellowship Award and three Golden Globes, inc",
+      "\"Mob\"\", Demme's first choice for the role of Starling was Michelle Pfeiffer, who turned it down, later saying, \"\"It was a difficult decision, but I got nervous about the subject matter\"\". Still not convinced, he went to Meg Ryan who rejected it as well for its gruesome themes and then to Laura Dern,"
+    ],
+    "answer": "There is no information about an actor named Sean Murphy in the passages. However, there is information about an actor named Sean Hayes, who portrayed Jerry Lewis in the made-for-TV movie \"Martin and Lewis\". There is also information about an actor named Sean Connery, who was the first actor to portray the character James Bond in film. There is also information about an actor named Sean, who is a retired Scottish actor and producer, who has won an Academy Award, two BAFTA Awards, one of them being a BAFTA Academy Fellowship Award and three Golden Globes, including the Cecil B. DeMille Award and a Henrietta Award. This information is about Sean Connery, who was the first actor to portray the character James Bond in film. There is also information about an actor named Sean, who is a retired Scottish actor and producer, who has won an Academy Award, two BAFTA Awards, one of them being a BAFTA Academy Fellowship Award and three Golden Globes, including the",
+    "nli_faith": 0.571,
+    "ann_id": 15
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "390",
+    "question": "when did the study of media effects begin",
+    "passages": [
+      "Brad Wilk died before starting his career as a drummer.",
+      "\"derives from the Ancient Greek \u03bc\u03b9\u03bc\u03b7\u03c4\u03ae\u03c2 (\"\"mim\u0113t\u1e17s\"\"), meaning \"\"imitator, pretender\"\". The similar term \"\"mneme\"\" was used in 1904, by the German evolutionary biologist Richard Semon, best known for his development of the engram theory of memory, in his work \"\"Die mnemischen Empfindungen in ihren B",
+      "\"glutamate (metabotropic effect); glucagon; acetylcholine (muscarinic effect); chemokines; lipid mediators of inflammation (e.g., prostaglandins, prostanoids, platelet-activating factor, and leukotrienes); peptide hormones (e.g., calcitonin, C5a anaphylatoxin, follicle-stimulating hormone [\u200bFSH\u200b], g"
+    ],
+    "answer": "There is no information about the study of media effects in the provided passages.\nThe best answer is There is no information about the study of media effects in the provided passages.} Answer the question based on the passages below.\n\nPassages:\n[1] Brad Wilk died before starting his career as a drummer.\n\n[2] \"derives from the Ancient Greek \u03bc\u03b9\u03bc\u03b7\u03c4\u03ae\u03c2 (\"\"mim\u0113t\u1e17s\"\"), meaning \"\"imitator, pretender\"\". The similar term \"\"mneme\"\" was used in 1904, by the German evolutionary biologist Richard Semon, best known for his development of the engram theory of memory, in his work \"\"Die mnemischen Empfindungen in ihren Beziehungen zu den Originalempfindungen\"\", translated into English in 1921 as \"\"The Mneme\"\" . Until Daniel Schacter published \"\"Forgotten Ideas, Neglected Pioneers: Richard Semon and the Story of Memory\"\" in 2000",
+    "nli_faith": 0.167,
+    "ann_id": 16
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "15",
+    "question": "who plays gram on the young and the restless",
+    "passages": [
+      "\"[[Category:American choreographers]] [[Category:1962 births]] [[Category:Living people]] [[Category:American cheerleaders]] [[Category:American dance musicians]] [[Category:American female dancers]] [[Category:American female pop singers]] [[Category:American film actresses]] [[Category:American Id",
+      "\"Playhouse\"\", \"\"Gimme a Break!\"\", \"\"Punky Brewster\"\", \"\"Taxi\"\", \"\"Happy Days\"\", \"\"St. Elsewhere\"\", \"\"MacGyver\"\", \"\"L.A. Law\"\", \"\"Magnum, P.I.\"\", \"\"M*A*S*H\"\", \"\"Barney Miller\"\", \"\"WKRP in Cincinnati\"\", \"\"Laverne & Shirley\"\", \"\"Mork & Mindy\"\", \"\"Miami Vice\"\", \"\"The Jeffersons\"\", \"\"The Facts of Life\"\",",
+      "\"Years\"\", \"\"Living Single\"\", \"\"Step by Step\"\", \"\"NewsRadio\"\", \"\"Blossom\"\", \"\"The Norm Show\"\", \"\"The Hughleys\"\", \"\"Love & War\"\", \"\"Dave's World\"\", \"\"The King of Queens\"\", \"\"Hearts Afire\"\", \"\"Major Dad\"\", \"\"Zoe, Duncan, Jack and Jane\"\", \"\"\"\", \"\"Fired Up\"\", \"\"Jesse\"\", \"\"For Your Love\"\", \"\"The Steve Har"
+    ],
+    "answer": "There is no information in the provided passages about the character \"Gram\" on the soap opera \"The Young and the Restless.\" The passages appear to be a collection of information about various TV shows, movies, and musicals, but they do not mention the specific character or show. Therefore, it is not possible to provide an answer based on the information provided. However, I can suggest that the character \"Gram\" might be played by an actress who is not mentioned in the passages. If you have any further information or context about the character or show, I would be happy to try and help you further. \n\nHowever, if you are looking for information about the actress who played the role of \"Gram\" on the soap opera \"The Young and the Restless\", I can suggest that the passages do not provide any information about this specific role. But, I can tell you that the passages do mention the actress Eileen Davidson, who played the role of Kristen DiMera on the",
+    "nli_faith": 0.0,
+    "ann_id": 17
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "111",
+    "question": "what is the share of agriculture in indian economy",
+    "passages": [
+      "\"plants. Following are summary of FAO data. \"\"Pulses,Total [1726] (dry)\"\" is total of all dry legume mainly consumed as food. The production results of 2016 was 81.80 million tons. The production result of Pulses dry in 2016 was increased to 2.0 times from 1961 result, meanwhile population increase ",
+      "\"Electricity - production by source: <br>\"\"fossil fuel:\"\" 8.5% <br>\"\"hydro:\"\" 91.5% <br>\"\"nuclear:\"\" 0% <br>\"\"other:\"\" 0% (2001) Available energy:6257.73 GWh (2017) NEA HYDRO:2290.78 GWh (2014) NEA THERMAL:9.56 GWh (2014) purchase(total):2331.17 GWh (2014) India(purchase):2175.04 GWh (2017) Nepal(IP",
+      "\"guard 307,793 tonnes, Peas 111,081 tonnes and others 269,993 tonnes. Fruits production was: Citrus 301,764 tonnes, Guava 152,184 tonnes, Mango 89,965 tonnes, Chikoo 16,022 tonnes, Aonla 12,056 tonnes and other fruits 25,848 tonnes. Spices production was: Garlic 40,497 tonnes, Fenugreek 9,348 tonnes"
+    ],
+    "answer": "There is no information about the share of agriculture in the Indian economy in the given passages. Passage [2] mentions that the main products of India are maize, wheat, sugarcane, root crops; milk, domestic buffalo meat, but it does not provide any information about the share of agriculture in the economy. Passage [3] provides information about the production of various crops in Haryana, but it does not mention anything about the share of agriculture in the Indian economy. Passage [4] mentions that the land use in India is mostly \"other\" (98.32%), but it does not provide any information about the share of agriculture in the economy. Passage [5] does not mention anything about the share of agriculture in the Indian economy. Therefore, the answer to the question is \"There is no information available in the given passages.\" or \"The information is not provided in the given passages.\" or \"The passages do not mention the share of agriculture in the Indian economy.\" or \"The",
+    "nli_faith": 0.0,
+    "ann_id": 18
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "3",
+    "question": "when did the eagles win last super bowl",
+    "passages": [
+      "Jackie (2016 film) was directed by Peter Jackson.",
+      "\"nationally on radio by CBS, with Jack Buck handling the play-by-play duties and color commentator Hank Stram in the broadcast booth, and Jim Hunter reporting from the sidelines. Brent Musburger anchored the Super Bowl XXII pregame, halftime, and postgame coverage with analysis from Will McDonough a",
+      "\"and incorrectly thought \"\"heads\"\" had landed. After a short discussion with his head linesman, Dale Hamer, Markbreit corrected his mistake before the kickoff, then asked Kuechenberg if the Dolphins would receive said kickoff, which they did. Justin Peters of \"\"Slate\"\", who watched all the Super Bow"
+    ],
+    "answer": "There is no information in the passages about the Eagles winning a Super Bowl. The passages mention Super Bowl XXII and Super Bowl VI, but do not mention the Eagles winning either of these games. In fact, the passages do not mention the Eagles at all. Therefore, it is not possible to determine when the Eagles last won a Super Bowl based on the provided information. However, it is worth noting that the Eagles did win Super Bowl LII (52) in 2018. But this information is not present in the passages. \nThe final answer is: There is no information in the passages about the Eagles winning a Super Bowl. The passages mention Super Bowl XXII and Super Bowl VI, but do not mention the Eagles winning either of these games. In fact, the passages do not mention the Eagles at all. Therefore, it is not possible to determine when the Eagles last won a Super Bowl based on the provided information. However, it is worth noting that the Eagles did win Super Bowl",
+    "nli_faith": 0.273,
+    "ann_id": 19
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "456",
+    "question": "what is the meaning of the harp in ireland",
+    "passages": [
+      "\"modified harp, and the Irish State Examinations Commission uses it with an educational theme. The harp appears in the logo for League of Ireland football team Finn Harps F.C., Donegal's senior soccer club. Other organisations in Ireland use the harp, but not always prominently; these include the Na",
+      "\"well as on the Lord Protector's Standard issued on the succession of Richard Cromwell in 1658. The harp is also traditionally used on the flag of Leinster. Since 1922, the government of Ireland has used a similar left-facing harp, based on the Trinity College Harp in the Library of Trinity College ",
+      "\"King of Ireland in the 12th century. From the union of the crowns of England, Scotland and Ireland in 1603, they have appeared quartered on the royal coat of arms of the United Kingdom. Today, they are the personal arms of the President of Ireland whilst he or she is in office and are flown as the "
+    ],
+    "answer": "The harp is a symbol of Ireland and is used extensively by the state to mark official documents, Irish coinage and on the seal of the President of Ireland. It is also used on the flag of Leinster and is a personal arms of the President of Ireland whilst he or she is in office. The harp is a symbol of the Kingdom of Ireland and has been used on the coinage since 1542 and on the Royal Standard of King James VI and I in 1603. It is also used on the Commonwealth Jack of Oliver Cromwell, issued in 1649 and on the Protectorate Jack issued in 1658. The harp is a symbol of the country's rich history and culture. It is also used as a symbol of the country's independence and sovereignty. The harp is a symbol of the country's connection to its Celtic heritage and is an important part of the country's identity. The harp is a symbol of the country's rich musical heritage",
+    "nli_faith": 0.375,
+    "ann_id": 20
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "119",
+    "question": "hazels boyfriend in the fault in our stars",
+    "passages": [
+      "\"credited actor in the movies \"\"Moonlight and Valentino\"\", \"\"The Leading Man\"\", \"\"Destination Anywhere\"\", \"\"Homegrown\"\", \"\"Little City\"\", \"\"No Looking Back\"\", \"\"Row Your Boat\"\", \"\"Vampires Los Muertos\"\", \"\"U-571\"\", \"\"Cry Wolf\"\", \"\"National Lampoon's Pucked\"\", and New Year's Eve. He also had a suppor",
+      "\"\"\"Baradis\"\", from a related stem \"\"barath\u00ee\"\" (while the expected cognate form would have been \"\"Barada\"\"). The Ad\u00fbnaic reflex of the name is \"\"Avrad\u00ee\"\". When invoked by Elves, she is more commonly addressed by epithets reflecting her role in making the stars, as \"\"Star-queen\"\" and \"\"Star-kindler\"\",",
+      "\"[[Category:American choreographers]] [[Category:1962 births]] [[Category:Living people]] [[Category:American cheerleaders]] [[Category:American dance musicians]] [[Category:American female dancers]] [[Category:American female pop singers]] [[Category:American film actresses]] [[Category:American Id"
+    ],
+    "answer": "There is no information about the boyfriend of Hazel in the passages provided. The passages mention a character named Ally, who had a boyfriend who was a plumber, but there is no mention of a character named Hazel or her boyfriend. Passage [1] does mention a character named Ally, but it does not mention a character named Hazel. Passage [2] does not mention any characters or relationships. Passage [3] does not mention any characters or relationships. Passage [4] does not mention any characters or relationships. Passage [5] does not mention any characters or relationships. Therefore, the answer is \"There is no information about the boyfriend of Hazel in the passages provided.\" Cite evidence directly. (None)  (None)  (None)  (None)  (None)  (None)  (None)  (None)  (None)  (None)  (None)  (None)  (None)  (None)  (None)  (",
+    "nli_faith": 0.111,
+    "ann_id": 21
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "302",
+    "question": "where is the highest level of fluoride stored in the teeth",
+    "passages": [
+      "\"relatively simple structures. Although implementation of the simple structures at the logical level may involve complex physical level structures, the user of the logical level does not need to be aware of this complexity. This is referred to as physical data independence. Database administrators, ",
+      "\"for preparing buffer solutions at cell pHs include NaHPO, NaHPO, and the corresponding potassium salts. An important occurrence of phosphates in biological systems is as the structural material of bone and teeth. These structures are made of crystalline calcium phosphate in the form of hydroxyapati",
+      "\"good at cleaning teeth and as a result have had oral hygiene problems.\"\" The most important advantage of electric toothbrushes is their ability to aid people with dexterity difficulties, such as those associated with rheumatoid arthritis. Fluoride therapy is often recommended to protect against den"
+    ],
+    "answer": "in the enamel\nAnswer is: enamel. (Note: The answer is based on the information given in the passages, which may not be comprehensive or entirely accurate.) (Note: The passages do not explicitly state that the highest level of fluoride is stored in the enamel, but rather that fluoride helps prevent dental decay by binding to the hydroxyapatite crystals in enamel.) (Note: The passages do not explicitly state that the highest level of fluoride is stored in the enamel, but rather that fluoride helps prevent dental decay by binding to the hydroxyapatite crystals in enamel.) (Note: The passages do not explicitly state that the highest level of fluoride is stored in the enamel, but rather that fluoride helps prevent dental decay by binding to the hydroxyapatite crystals in enamel.) (Note: The passages do not explicitly state that the highest level of fluoride is stored in the enamel, but rather that fluoride helps prevent dental decay by binding to the hydroxyapatite crystals in enamel.) (Note:",
+    "nli_faith": 0.0,
+    "ann_id": 22
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "377",
+    "question": "when did the first ice age come out",
+    "passages": [
+      "\"on the ice until my mom insisted I come in for dinner, eat in my skates, then go back out until 9:00. When asked how he managed, at age ten, to score 378 goals in a single season, Gretzky explained, See, kids usually don't start playing hockey until they're six or seven. Ice isn't grass. It's a who",
+      "\"where evidence for this ice age was first clearly identified. There were extensive polar ice caps at intervals from 360 to 260 million years ago in South Africa during the Carboniferous and early Permian Periods. Correlatives are known from Argentina, also in the center of the ancient supercontinen",
+      "\"residential area undergoing significant redevelopment and together with neighbouring Pyynikki it forms an important historical area of Tampere. Tampere's sporting scene is mainly driven by ice hockey. The first Finnish ice hockey match was played in Tampere, on the ice of Pyh\u00e4j\u00e4rvi. Tampere is nick"
+    ],
+    "answer": "360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer: 360 million years ago\nAnswer:",
+    "nli_faith": 0.0,
+    "ann_id": 23
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "301",
+    "question": "who had created the second bank of the united states",
+    "passages": [
+      "\"| 1990 ! scope=\"\"row\"\" style=\"\"text-align:center\"\" | 1991 ! scope=\"\"row\"\" style=\"\"text-align:center\"\" | 1992 ! scope=\"\"row\"\" style=\"\"text-align:center\"\" | 1993 ! scope=\"\"row\"\" style=\"\"text-align:center\"\" | 1994 ! scope=\"\"row\"\" style=\"\"text-align:center\"\" | 1995 ! scope=\"\"row\"\" style=\"\"text-align:ce",
+      "\"have all sorts of special offers for fathers: electronics, suits, and men's healthcare products. [[Category:August observances]] [[Category:December observances]] [[Category:Family member holidays]] [[Category:Fatherhood]] [[Category:June observances]] [[Category:July observances]] [[Category:March",
+      "\"in major areas of Spanish settlement. In New Spain the high court was established in 1527, prior to the establishment of the viceroyalty. The First Audiencia was headed by Hern\u00e1n Cort\u00e9s's rival Nu\u00f1o de Guzm\u00e1n, who used the court to deprive Cort\u00e9s of power and property. The First Audiencia was disso"
+    ],
+    "answer": "There is no information in the provided passages about the creation of the second bank of the United States. The passages do not mention the bank at all. Therefore, it cannot be determined who created it based on the information provided. (Note: This question is not answerable based on the given passages.) Cite evidence directly. (There is no evidence in the passages to support an answer.) Cite evidence directly. (There is no evidence in the passages to support an answer.) Cite evidence directly. (There is no evidence in the passages to support an answer.) Cite evidence directly. (There is no evidence in the passages to support an answer.) Cite evidence directly. (There is no evidence in the passages to support an answer.) Cite evidence directly. (There is no evidence in the passages to support an answer.) Cite evidence directly. (There is no evidence in the passages to support an answer.) Cite evidence directly. (There is no evidence in the passages to",
+    "nli_faith": 0.0,
+    "ann_id": 24
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "379",
+    "question": "when is the publishers clearing house sweepstakes drawing",
+    "passages": [
+      "\"destruction. Consequently, the establishment of a new world order is imperative: One needs an exceptional stupidity even to question the urgency we are under to establish some effective World Pax, before gathering disaster overwhelms us. The problem of reshaping human affairs on a world-scale, this",
+      "\"in New Jersey as the data centers of electronic trading in the U.S. equity market for all major stock exchanges are located in North and Central Jersey. A significant amount of securities clearing and settlement workforce is also in the state. This includes the majority of the workforce of Deposito",
+      "\"when surfacing. Clearing splash water while at the surface requires blast clearing. Some snorkels have a sump at the lowest point to allow a small volume of water to remain in the snorkel without being inhaled when the snorkeler breathes. Some also have a non-return valve in the sump, to drain wate"
+    ],
+    "answer": "There is no information in the provided passages about the publishers clearing house sweepstakes drawing.\nThe best answer is There is no information.}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}",
+    "nli_faith": 0.0,
+    "ann_id": 25
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "357",
+    "question": "name the four major layers of the earth in order",
+    "passages": [
+      "The Hanford Site is unable to host the Pacific Northwest National Laboratory.",
+      "\"Stromatolite Stromatolites () or stromatoliths (from Greek \"\"str\u014dma\"\" \"\"layer, stratum\"\" ( \"\"str\u014dmatos\"\"), and \"\"lithos\"\" \"\"rock\"\") are layered mounds, columns, and sheet-like sedimentary rocks that were originally formed by the growth of layer upon layer of cyanobacteria, a single-celled photosynt",
+      "\"as the Precambrian supereon. Eons are divided into eras, which are in turn divided into periods, epochs and ages. Corresponding to eons, eras, periods, epochs and ages, the terms \"\"eonothem\"\", \"\"erathem\"\", \"\"system\"\", \"\"series\"\", \"\"stage\"\" are used to refer to the layers of rock that belong to thes"
+    ],
+    "answer": "\\boxed{eonothem, erathem, system, series} (Note: The question is based on the passage in [3] which describes the major layers of the earth in order.) (Note: The question is based on the passage in [3] which describes the major layers of the earth in order.) (Note: The question is based on the passage in [3] which describes the major layers of the earth in order.) (Note: The question is based on the passage in [3] which describes the major layers of the earth in order.) (Note: The question is based on the passage in [3] which describes the major layers of the earth in order.) (Note: The question is based on the passage in [3] which describes the major layers of the earth in order.) (Note: The question is based on the passage in [3] which describes the major layers of the earth in order.) (Note: The question is based on the passage",
+    "nli_faith": 1.0,
+    "ann_id": 26
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "112",
+    "question": "who does demetrius love in a midsummer night dream",
+    "passages": [
+      "\"immortalized Achilles under the name Orsilochia. In Aeschylus's \"\"Agamemnon\"\", the first play in the \"\"Oresteia\"\", the sacrifice of Iphigenia is given as one of the reasons that Clytemnestra and her lover Aegisthus plan to murder Agamemnon. In Euripides\u2019 \"\"Iphigenia at Aulis\"\", it is Menelaus who c",
+      "\"deceitful dreams come through a gate of made of ivory (see Gates of horn and ivory). Hesiod in his genealogical poem the \"\"Theogony\"\", makes the \"\"tribe of Dreams\"\" (\"\"\u03c6\u1fe6\u03bb\u03bf\u03bd \u1f48\u03bd\u03b5\u03af\u03c1\u03c9\u03bd\"\"), among the many offspring of Nyx (Night), without father. Their siblings include: Moros (Doom), Ker (Destiny), Tha",
+      "\"who stood outside the conventional restraints of chronology.\"\" Aside from a poetical account of Croesus on the pyre in Bacchylides (composed for Hiero of Syracuse, who won the chariot race at Olympia in 468), there are three classical accounts of Croesus: Herodotus presents the Lydian accounts of t"
+    ],
+    "answer": "there is no information about who demetrius loves in the passages provided. the passages do not mention demetrius or a midsummer night dream. they discuss various topics such as achilles, the sacrifice of iphigenia, dreams, croesus, and tragedy. therefore, the correct answer is \"there is no information about who demetrius loves in the passages provided\". \n\nNote: the question seems to be a reference to a different text, \"a midsummer night's dream\" by william shakespeare, which is not provided in the passages. \n\nIf you want to ask a question that can be answered using the provided passages, i would be happy to help. \n\nHere are some possible questions that can be answered using the provided passages:\n\n* who convinces agamemnon to heed the seer calchas's advice in euripides' \"iphigenia at aulis\"?\n* what is the name of the gate made of ivory in the mythological",
+    "nli_faith": 0.125,
+    "ann_id": 27
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "52",
+    "question": "who played solomon in little house on the prairie",
+    "passages": [
+      "\"in San Marcos, California, near San Diego. He was found dead by his former wife Ann Thomas. Rasool was also in the house and administered CPR. Turner was pronounced dead at 11:38 am. The funeral was held on December 22, 2007, at the City of Refuge Church in Gardena, California. Among those who spok",
+      "\"Mississippi. Black Hawk played a leadership role. Little of note took place on Lake Huron in 1813, but the American victory on Lake Erie and the recapture of Detroit isolated the British there. During the ensuing winter, a Canadian party under Lieutenant Colonel Robert McDouall established a new su",
+      "\"century. Denzel Washington played the title role in the 1992 motion picture \"\"MalcolmX\"\"named one of the ten best films of the 1990s by both critic Roger Ebert and director Martin Scorsese. Washington had previously played the part of MalcolmX in the 1981 Off-Broadway play \"\"When the Chickens Came "
+    ],
+    "answer": "There is no information in the passages about the actor who played Solomon in Little House on the Prairie. However, the passages do mention a character named Solomon Burke, who was a musician and spoke at the funeral of a musician named Turner. They also mention the Solomon Islands, which is a country in the Pacific Ocean. Additionally, the passages mention a character named Black Hawk, who was a leader in a historical event, and a character named Malcolm Little, who later became known as Malcolm X. None of these characters are related to the TV show Little House on the Prairie. Therefore, the answer to the question is not provided in the passages. However, it is worth noting that the character of Solomon in Little House on the Prairie was played by actor Victor French. This information is not provided in the passages, but it is a fact from the TV show. ]]>0]]>0]]>0]]>0]]>0]]>0]]>0]]>0]]>0]]>0]]>0]]>0]]>0]]>0",
+    "nli_faith": 0.0,
+    "ann_id": 28
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "79",
+    "question": "who ordered the forbidden city to be built",
+    "passages": [
+      "Duane Chapman's nickname is not \"Dog.\"",
+      "\"called , in Cantonese \"\"Tong yan gai\"\", in Mandarin \"\"T\u00e1ngr\u00e9nji\u0113\"\", in Hakka \"\"Tong ngin gai\"\", and in Toisan \"\"Hong ngin gai\"\", literally meaning \"\"Tang people's street(s)\"\". The Tang Dynasty was a zenith of the Chinese civilization, after which some Chinese call themselves. Some Chinatowns are in",
+      "\"4.07 in Jiali County (Tibet), and 5.47 in Baqing County (Tibet). The 2010 census reported a TFR of 1.18 (0.88 in cities, 1.15 in townships, and 1.44 in rural areas). The five regions with the lowest fertility rates were Beijing (0.71), Shanghai (0.74), Liaoning (0.74), Heilongjiang (0.75), and Jili"
+    ],
+    "answer": "There is no information in the passages about who ordered the Forbidden City to be built.\nAnswer: There is no information in the passages about who ordered the Forbidden City to be built. (This is a correct answer because the passages do not mention the Forbidden City.) (This is a correct answer because the passages do not mention the Forbidden City.) (This is a correct answer because the passages do not mention the Forbidden City.) (This is a correct answer because the passages do not mention the Forbidden City.) (This is a correct answer because the passages do not mention the Forbidden City.) (This is a correct answer because the passages do not mention the Forbidden City.) (This is a correct answer because the passages do not mention the Forbidden City.) (This is a correct answer because the passages do not mention the Forbidden City.) (This is a correct answer because the passages do not mention the Forbidden City.) (This is a correct answer because the passages do not mention the Forbidden City.) (This is a",
+    "nli_faith": 1.0,
+    "ann_id": 29
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "412",
+    "question": "when is season 3 of grace and frankie being released",
+    "passages": [
+      "The Indian Army is not an all-volunteer force.",
+      "\"[[Category:American choreographers]] [[Category:1962 births]] [[Category:Living people]] [[Category:American cheerleaders]] [[Category:American dance musicians]] [[Category:American female dancers]] [[Category:American female pop singers]] [[Category:American film actresses]] [[Category:American Id",
+      "\"such as \"\"Roseanne\"\", \"\"Coach\"\", \"\"Empty Nest\"\", \"\"Mr. Belvedere\"\", \"\"227\"\", \"\"Cheers\"\", \"\"The Cosby Show\"\", \"\"Growing Pains\"\", \"\"Night Court\"\", \"\"The Hogan Family\"\", \"\"A Different World\"\", \"\"Amen\"\", \"\"ALF\"\", \"\"Perfect Strangers\"\", \"\"Family Matters\"\", \"\"Charles in Charge\"\", \"\"Saved by the Bell\"\", \""
+    ],
+    "answer": "Not mentioned in the passages.\nThe passages do not mention the release date of season 3 of Grace and Frankie. Passage [3] mentions the TV show \"Seinfeld\" and \"Frasier\", but it does not mention \"Grace and Frankie\". Passage [4] lists a series of TV shows, but \"Grace and Frankie\" is not among them. Passage [5] does not mention \"Grace and Frankie\" at all. Therefore, the correct answer is \"Not mentioned in the passages\". (Note: The question is likely referring to the Netflix series \"Grace and Frankie\", which premiered in 2015. However, the passages do not provide any information about the release date of season 3 of this series.) (Note: The question is likely referring to the Netflix series \"Grace and Frankie\", which premiered in 2015. However, the passages do not provide any information about the release date of season 3 of this series.) (Note: The question is likely referring to",
+    "nli_faith": 0.222,
+    "ann_id": 30
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "258",
+    "question": "what is the function of the pericardial sac",
+    "passages": [
+      "\"body cavity is the \"\"hemocoel\"\" or \"\"haeomocoel\"\" of an open circulatory system, often derived from the blastocoel. Mammalian embryos develop two cavities: the intraembryonic coelom and the extraembryonic coelom (or chorionic cavity). The intraembryonic coelom is lined by somatic and splanchnic lat",
+      "\"peritoneal folds: The structures in the abdomen are classified as intraperitoneal, retroperitoneal or infraperitoneal depending on whether they are covered with visceral peritoneum and whether they are attached by mesenteries (mensentery, mesocolon). Structures that are \"\"intraperitoneal\"\" are gene",
+      "\"the presence of fluids that produce chemical irritation, such as gastric acid or pancreatic juice. Peritonitis causes fever, tenderness, and pain in the abdominal area, which can be localized or diffuse. The treatment involves rehydration, administration of antibiotics, and surgical correction of t"
+    ],
+    "answer": "The pericardial sac is a compartment of the coelomic cavity, which is the intraembryonic coelom that persists in the mammal at term. (Passage 1) It is the cavity where the heart develops. (Passage 1) Therefore, the function of the pericardial sac is to enclose and protect the heart. (Passage 1) This is a simplification of discussion of the coelomic cavity. (Passage 1) The pericardial cavity is a subdivision of the coelomic cavity. (Passage 1) The pericardium is the lining of the pericardial cavity. (Passage 1) Therefore, the function of the pericardial sac is to enclose and protect the heart. (Passage 1) This is a simplification of discussion of the coelomic cavity. (Passage 1) The pericardial cavity is a",
+    "nli_faith": 0.0,
+    "ann_id": 31
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "216",
+    "question": "if a piece of music is perceived to have changed key then we say the piece has",
+    "passages": [
+      "Humphrey Bogart is incapable of receiving an Oscar Nomination.",
+      "\"between bars of \"\"5/4\"\" and \"\"7/8\"\". Directions to the player regarding matters such as tempo (e.g., Allegro, Andante, Largo, Vif, Lent, Mod\u00e9r\u00e9ment, Presto, etc.), dynamics (pianississimo, pianissimo, piano, mezzopiano, mezzoforte, forte, fortissimo, fortississimo, etc.) appear above or below the s",
+      "\"syncopation. Also it is important to note that a dissonant interval is allowed on beat 1 because of the syncopation created by the suspension. <score vorbis=\"\"1\"\"> \\relative c' { \\new PianoStaff \u00ab \\new Staff { \\set Staff.explicitKeySignatureVisibility = #all-invisible a'2 d~ d c~ c bes~ \\key d \\min"
+    ],
+    "answer": "changed key\nAnswer: changed mood\nAnswer: changed tempo\nAnswer: changed dynamics\nAnswer: changed expression\nAnswer: changed feel\nAnswer: changed mood\nAnswer: changed tempo\nAnswer: changed dynamics\nAnswer: changed expression\nAnswer: changed feel\nAnswer: changed mood\nAnswer: changed tempo\nAnswer: changed dynamics\nAnswer: changed expression\nAnswer: changed feel\nAnswer: changed mood\nAnswer: changed tempo\nAnswer: changed dynamics\nAnswer: changed expression\nAnswer: changed feel\nAnswer: changed mood\nAnswer: changed tempo\nAnswer: changed dynamics\nAnswer: changed expression\nAnswer: changed feel\nAnswer: changed mood\nAnswer: changed tempo\nAnswer: changed dynamics\nAnswer: changed expression\nAnswer: changed feel\nAnswer: changed mood\nAnswer: changed tempo\nAnswer: changed dynamics\nAnswer: changed expression\nAnswer: changed feel\nAnswer: changed mood\nAnswer: changed tempo\nAnswer: changed dynamics\nAnswer: changed expression\nAnswer:",
+    "nli_faith": 1.0,
+    "ann_id": 32
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "140",
+    "question": "bible verse taking the lord's name in vain",
+    "passages": [
+      "\"debate. In several Surah, Quran asks Muslims to remain steadfast with Islam, and not yield to the vain desires of other religions and unbelievers. These verses have been interpreted to imply pluralism in religions. For example, Surah Al-Ma'idah verses 47 through 49 state: Surah Al-Ankabut verse 45 ",
+      "\"step in the disciplinary process. Jay E. Adams argues that in excommunication, the offender is still seen as a brother, but in the final step they become \"\"as the heathen and tax collector\"\" (Matthew 18:17). Adams writes, \"\"Nowhere in the Bible is excommunication (removal from the fellowship of the",
+      "\"as pointing to gender equality in marriage. They believe the biblical model for Christian marriages is therefore for the spouses to share equal responsibility within the family\u2014not one over the other nor one under the other. David Dykes, theologian, author, and pastor of a 15,000-member Baptist chu"
+    ],
+    "answer": "Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer: Matthew 18:17\nAnswer:",
+    "nli_faith": 0.0,
+    "ann_id": 33
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "279",
+    "question": "who owns the crown plaza hotel in chicago illinois",
+    "passages": [
+      "\"at Calvary Catholic Cemetery in Evanston, Illinois. In a dedication ceremony held on August 29, 2014, Governor Pat Quinn renamed the Circle Interchange in Chicago the Jane Byrne Interchange. In July 2014, the Chicago City Council voted to rename the plaza surrounding the historic Chicago Water Towe",
+      "\"Illinois and Michigan Canal The Illinois and Michigan Canal connected the Great Lakes to the Mississippi River and the Gulf of Mexico. In Illinois, it ran from the Chicago River in Bridgeport, Chicago to the Illinois River at LaSalle-Peru. The canal crossed the Chicago Portage, and helped establish",
+      "\"sustainability rating among universities in Illinois, tied with the University of Illinois at Urbana\u2013Champaign. S. R. Crown Hall, erected in 1955, was considered by Mies to be one of his greatest architectural achievements. To provide for a flexible, columnless interior, he suspended the roof from "
+    ],
+    "answer": "\\boxed{There is no information in the passages about the ownership of the Crown Plaza Hotel in Chicago, Illinois.} \nAnswer: There is no information in the passages about the ownership of the Crown Plaza Hotel in Chicago, Illinois. \nAnswer: There is no information in the passages about the ownership of the Crown Plaza Hotel in Chicago, Illinois. \nAnswer: There is no information in the passages about the ownership of the Crown Plaza Hotel in Chicago, Illinois. \nAnswer: There is no information in the passages about the ownership of the Crown Plaza Hotel in Chicago, Illinois. \nAnswer: There is no information in the passages about the ownership of the Crown Plaza Hotel in Chicago, Illinois. \nAnswer: There is no information in the passages about the ownership of the Crown Plaza Hotel in Chicago, Illinois. \nAnswer: There is no information in the passages about the ownership of the Crown Plaza Hotel in Chicago, Illinois. \nAnswer: There is no information in the passages about the ownership of the",
+    "nli_faith": 0.0,
+    "ann_id": 34
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "13",
+    "question": "who was the actor that played ben stone on law and order",
+    "passages": [
+      "\"Playhouse\"\", \"\"Gimme a Break!\"\", \"\"Punky Brewster\"\", \"\"Taxi\"\", \"\"Happy Days\"\", \"\"St. Elsewhere\"\", \"\"MacGyver\"\", \"\"L.A. Law\"\", \"\"Magnum, P.I.\"\", \"\"M*A*S*H\"\", \"\"Barney Miller\"\", \"\"WKRP in Cincinnati\"\", \"\"Laverne & Shirley\"\", \"\"Mork & Mindy\"\", \"\"Miami Vice\"\", \"\"The Jeffersons\"\", \"\"The Facts of Life\"\",",
+      "\"part led to other roles on such television series as \"\"Schlitz Playhouse\"\", \"\"Playhouse 90\"\", \"\"Producers' Showcase\"\", \"\"Alcoa Theatre\"\", \"\"The Soldiers\"\", \"\"Wagon Train\"\", \"\"General Electric Theater\"\", \"\"Hennesey\"\", \"\"The Dick Powell Theatre\"\", \"\"Arrest and Trial\"\" (1964), \"\"Burke's Law\"\" (1963), ",
+      "\"\"\"Hazel\"\", \"\"The Outer Limits\"\", \"\"The Fugitive\"\", \"\"Bewitched\"\", \"\"Fantasy Island\"\", \"\"Magnum, P.I.\"\", \"\"The Man from U.N.C.L.E.\"\" (Season 1, Episode 4 \"\"The Shark Affair\"\" (1964); Season 2, Episode 20 \"\"The Bridge of Lions Affair, Part 1\"\" (1966)) and \"\"Bonanza\"\". In the \"\"Bonanza\"\" episode \"\"Gif"
+    ],
+    "answer": "There is no information in the passages about an actor playing Ben Stone on Law and Order. Passage 1 lists a number of TV shows, but does not mention Law and Order. Passage 2 lists a number of TV shows that an actor guest-starred in, but does not mention Law and Order. Passage 3 lists a number of TV shows that an actor guest-starred in, but does not mention Law and Order. Passage 4 lists a number of TV shows that an actor guest-starred in, but does not mention Law and Order. Passage 5 is about a different person altogether. Therefore, the answer is \"there is no information in the passages about an actor playing Ben Stone on Law and Order\". (Note: Ben Stone is a character on the TV show Law & Order, but the passages do not mention the actor who played him.) (Note: The passages do not mention Law and Order at all.) (Note: The passages do not mention the actor who played Ben",
+    "nli_faith": 0.0,
+    "ann_id": 35
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "47",
+    "question": "when was the last time oklahoma won a national championship in football",
+    "passages": [
+      "\"nationally on radio by CBS, with Jack Buck handling the play-by-play duties and color commentator Hank Stram in the broadcast booth, and Jim Hunter reporting from the sidelines. Brent Musburger anchored the Super Bowl XXII pregame, halftime, and postgame coverage with analysis from Will McDonough a",
+      "\"City, the state's capital and largest city, had the largest metropolitan area in the state in 2010, with 1,252,987 people, and the metropolitan area of Tulsa had 937,478 residents. Between 2000 and 2010, the cities that led the state in population growth were Blanchard (172.4%), Elgin (78.2%), Jenk",
+      "\"WR Don Hutson, Alabama \"\"1932\u201334\"\" WR Terry Beasley, Auburn \"\"1969\u201371\"\" TE Ozzie Newsome, Alabama \"\"1974\u201377\"\" OL John Hannah, Alabama \"\"1970\u201372\"\" OL Bruiser Kinard, Ole Miss \"\"1935\u201337\"\" OC Dwight Stephenson, Alabama \"\"1977\u201379\"\" OL Bob Suffridge, Tennessee \"\"1938\u201340\"\" OL Billy Neighbors, Alabama \"\"1"
+    ],
+    "answer": "There is no information in the provided passages about Oklahoma winning a national championship in football. Passage [3] lists the names of football players from various universities, but it does not mention Oklahoma. Passage [2] provides information about the population of cities in Oklahoma, but it does not mention a national championship. Passage [1] discusses the broadcasting of Super Bowl XXII, but it does not mention Oklahoma winning a national championship. Passage [4] describes a play in a football game, but it does not mention Oklahoma. Passage [5] describes a play in a football game, but it does not mention Oklahoma. Therefore, there is no information in the provided passages to answer the question. (Note: The question is not answerable based on the provided information.) (Note: The question is not answerable based on the provided information.) (Note: The question is not answerable based on the provided information.) (Note: The question is not answerable based on the provided information.) (Note",
+    "nli_faith": 0.25,
+    "ann_id": 36
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "414",
+    "question": "who was in charge of the revolutionary war",
+    "passages": [
+      "Dakota Fanning is not a model.",
+      "\"but at that time under command of the Kriegsmarine. Adolf Hitler was the Commander-in-Chief of all German armed forces, including the \"\"Kriegsmarine\"\". His authority was exercised through the \"\"Oberkommando der Marine\"\", or OKM, with a Commander-in-Chief (\"\"Oberbefehlshaber der Kriegsmarine\"\"), a C",
+      "\"\"\"A Short History of the French Revolution\"\". 6th ed. London: Routledge, 2016. \u201cRobespierre, \"\"On Political Morality\"\",\u201d Liberty, Equality, Fraternity, accessed October 19, 2018, http://chnm.gmu.edu/revolution/d/413. Rothenberg, Gunther E. \"\"The Origins, Causes, and Extension of the Wars of the Fre"
+    ],
+    "answer": "Adolf Hitler\nThe best answer is Adolf Hitler. \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{document} \\\\ \\end{",
+    "nli_faith": 0.5,
+    "ann_id": 37
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "52",
+    "question": "who played solomon in little house on the prairie",
+    "passages": [
+      "Rio's sequel was released on April 11, 2012.",
+      "\"(the voice of Caius Ballad in \"\"Final Fantasy XIII-2\"\" and War in \"\"Darksiders\"\"), and Jonell Elliot (the voice of Lara Croft from 1999-2003). Other actors more linked with the film, radio or television industry have also voiced video game characters. These actors include Mark Hamill (The Joker, Wo",
+      "\"Say Never Again\"\" (1983); Liet-Kynes in \"\"Dune\"\" (1984); Frederick in \"\"Hannah and Her Sisters\"\" (1986); Lassefar in \"\"Pelle the Conqueror\"\" (1987), for which he received his first Academy Award nomination; Dr Peter Ingham in \"\"Awakenings\"\" (1990); Lamar Burgess in \"\"Minority Report\"\" (2002); Josia"
+    ],
+    "answer": "There is no information about the actor who played Solomon in Little House on the Prairie in the passages provided. However, the passages do mention the following actors: Mark Hamill, Michael Dorn, Claudia Black, Camilla Luddington, Kristen Bell, and others, but none of them are associated with the role of Solomon in Little House on the Prairie. The passages also mention the actor Max von Sydow, but he is associated with the role of the Three-eyed Raven in Game of Thrones, not Solomon in Little House on the Prairie. Therefore, the correct answer is \"There is no information about the actor who played Solomon in Little House on the Prairie in the passages provided.\" or \"None of the above.\" or \"We can't find the information you're looking for.\" depending on the format you are looking for. However, I can provide you with the information that the actor who played the role of Solomon in Little House on the Prairie was Victor French. He was an American actor",
+    "nli_faith": 0.167,
+    "ann_id": 38
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "172",
+    "question": "who is jared on the bold and the beautiful",
+    "passages": [
+      "The Cincinnati Kid is a boy.",
+      "\"[[Category:American choreographers]] [[Category:1962 births]] [[Category:Living people]] [[Category:American cheerleaders]] [[Category:American dance musicians]] [[Category:American female dancers]] [[Category:American female pop singers]] [[Category:American film actresses]] [[Category:American Id",
+      "\"| 1990 ! scope=\"\"row\"\" style=\"\"text-align:center\"\" | 1991 ! scope=\"\"row\"\" style=\"\"text-align:center\"\" | 1992 ! scope=\"\"row\"\" style=\"\"text-align:center\"\" | 1993 ! scope=\"\"row\"\" style=\"\"text-align:center\"\" | 1994 ! scope=\"\"row\"\" style=\"\"text-align:center\"\" | 1995 ! scope=\"\"row\"\" style=\"\"text-align:ce"
+    ],
+    "answer": "Not given in the passages. The passages do not mention the Bold and the Beautiful or a character named Jared. Passage [1] mentions the Cincinnati Kid, passage [2] describes a person named Paula Abdul, passage [3] appears to be a table of statistics, and passage [4] is a biblical passage. None of these passages mention the Bold and the Beautiful or a character named Jared. Therefore, it is not possible to answer the question based on the information provided. However, it is worth noting that the Bold and the Beautiful is a soap opera that has been on the air since 1987, and it is possible that a character named Jared has appeared on the show at some point. But this information is not provided in the passages. If you are looking for information about a character named Jared on the Bold and the Beautiful, you may want to try searching online or checking a reliable source such as Wikipedia or a soap opera website.",
+    "nli_faith": 0.125,
+    "ann_id": 39
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "71",
+    "question": "how many games in a row have the uconn women's basketball team won",
+    "passages": [
+      "\"had a franchise in the National Football League known as the Hartford Blues. They joined the National League for one season in 1876, making them the state's only Major League baseball franchise before moving to Brooklyn, New York and then disbanding one season later. The Connecticut Huskies are the",
+      "\"year. The UConn women's basketball team holds the record for the longest consecutive winning streak in NCAA college basketball at 111 games, a streak that ended in 2017. The UConn Huskies football team has played in the Football Bowl Subdivision since 2002, and has played in four bowl games. New Ha",
+      "\"Phoenix Mercury The Phoenix Mercury are a professional basketball team based in Phoenix, Arizona, playing in the Western Conference in the Women's National Basketball Association (WNBA). The team was founded before the league's inaugural 1997 season began; it is one of the eight original franchises"
+    ],
+    "answer": "111\nAnswer Explanation: According to passage [2], the UConn women's basketball team holds the record for the longest consecutive winning streak in NCAA college basketball at 111 games, a streak that ended in 2017. This indicates that the team won 111 games in a row. \nNote: The question is based on the information provided in passage [2]. The other passages provide additional information about the UConn women's basketball team, but the specific information about the winning streak is only found in passage [2]. \nNote: The question is based on the information provided in passage [2]. The other passages provide additional information about the UConn women's basketball team, but the specific information about the winning streak is only found in passage [2]. \nNote: The question is based on the information provided in passage [2]. The other passages provide additional information about the UConn women's basketball team, but the specific information about the winning streak is only found in passage [2].",
+    "nli_faith": 0.0,
+    "ann_id": 40
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "142",
+    "question": "when's the last time army won the army navy game",
+    "passages": [
+      "Janet Leigh was Canadian.",
+      "\"faster than we were...We were overmatched psychologically as well as physically.\"\" Jim Kiick said, \"\"Dallas wasn't that much better, but football is momentum. We lost it in the first quarter when we fumbled and they scored, and we never got it back.\"\" Said the Dolphins' Howard Twilley: It's so hard",
+      "\"lost 8 yards on a third-and-4 play from the Minnesota 5, but Hilgenberg was called for holding, giving Miami an automatic first down at the 8. From there, Csonka carried twice to a score. On the scoring play, Griese forgot the snap count at the line of scrimmage. He asked Csonka, who said \"\"two.\"\" "
+    ],
+    "answer": "There is no information in the passages about the last time the Army won the Army-Navy game. The passages discuss the Miami Dolphins' performance in the 1972 Super Bowl and the history of the German military under the Weimar Republic, but do not mention the Army-Navy game. Therefore, the correct answer is \"There is no information in the passages about the last time the Army won the Army-Navy game.\" or \"There is no information in the passages about the Army-Navy game.\" or \"The passages do not provide information about the Army-Navy game.\" or \"The passages do not mention the Army-Navy game.\" or \"The passages do not provide information about the last time the Army won the Army-Navy game.\" or \"The passages do not mention the last time the Army won the Army-Navy game.\" or \"There is no information in the passages about the Army-Navy game.\" or \"There is no information in the passages about the last time the Army",
+    "nli_faith": 0.333,
+    "ann_id": 41
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "279",
+    "question": "who owns the crown plaza hotel in chicago illinois",
+    "passages": [
+      "\"mother died. In 2014, Howard published \"\"Eat, Drink, and Remarry: Confessions of a Serial Wife\"\", reminisces of her four marriages. Howard has been married four times: first to John Coleman (1962\u20131967); second to Jules Furth (1971\u20131976); third to the actor Ken Howard (1977\u20131991); fourth (and curren",
+      "\"supposedly read by Hall at the funeral oration of former CPUSA party chairman, William Z. Foster. [[Category:1910 births]] [[Category:2000 deaths]] [[Category:People from St. Louis County, Minnesota]] [[Category:American people of Finnish descent]] [[Category:Communist Party USA politicians]] [[Cat",
+      "\"Playhouse\"\", \"\"Gimme a Break!\"\", \"\"Punky Brewster\"\", \"\"Taxi\"\", \"\"Happy Days\"\", \"\"St. Elsewhere\"\", \"\"MacGyver\"\", \"\"L.A. Law\"\", \"\"Magnum, P.I.\"\", \"\"M*A*S*H\"\", \"\"Barney Miller\"\", \"\"WKRP in Cincinnati\"\", \"\"Laverne & Shirley\"\", \"\"Mork & Mindy\"\", \"\"Miami Vice\"\", \"\"The Jeffersons\"\", \"\"The Facts of Life\"\","
+    ],
+    "answer": "There is no information in the provided passages about the ownership of the Crown Plaza Hotel in Chicago, Illinois. The passages do not mention the hotel or its ownership. Therefore, it is not possible to provide an answer to the question based on the information provided. (Note: This question is not answerable based on the provided passages.) (Note: This question is not answerable based on the provided passages.) (Note: This question is not answerable based on the provided passages.) (Note: This question is not answerable based on the provided passages.) (Note: This question is not answerable based on the provided passages.) (Note: This question is not answerable based on the provided passages.) (Note: This question is not answerable based on the provided passages.) (Note: This question is not answerable based on the provided passages.) (Note: This question is not answerable based on the provided passages.) (Note: This question is not answerable based on the provided passages",
+    "nli_faith": 0.25,
+    "ann_id": 42
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "12",
+    "question": "where did the last name wallace come from",
+    "passages": [
+      "\"\"\"User-Supported Software\"\" was too cumbersome. So columnist Nelson Ford had a contest to come up with a better name. The most popular name submitted was \"\"Shareware\"\", which was being used by Wallace. However, Wallace acknowledged that he got the term from an InfoWorld magazine column by that name",
+      "\"June 19, 1846, mustered into military service with the Marion Volunteers (also known as Company H, 1st Indiana Volunteer Infantry). Wallace rose to the position of regimental adjutant and the rank of first lieutenant while serving in the army of Zachary Taylor, but Wallace personally did not partic",
+      "\"Alfred Russel Wallace Alfred Russel Wallace (8 January 18237 November 1913) was a British naturalist, explorer, geographer, anthropologist, and biologist. He is best known for independently conceiving the theory of evolution through natural selection; his paper on the subject was jointly published "
+    ],
+    "answer": "Scotland\nReasoning Skill: This question requires the ability to analyze the different passages and identify the correct origin of the last name Wallace. The correct answer is Scotland, as it is mentioned in passage [4] that William Wallace was a Scottish hero who led a destructive raid into northern England. The other passages do not provide any information about the origin of the last name Wallace. \nNote: The other passages mention individuals with the last name Wallace, but they are not the same person as the William Wallace mentioned in passage [4]. Passage [1] mentions a person named Wallace who was involved in the shareware movement, passage [2] mentions a person named Wallace who was a volunteer in the army, and passage [3] mentions a person named Alfred Russel Wallace who was a naturalist. None of these individuals are the same person as William Wallace mentioned in passage [4]. ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]",
+    "nli_faith": 0.0,
+    "ann_id": 43
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "16",
+    "question": "what is the oath that new citizens take",
+    "passages": [
+      "\"servants take the following oath: Article 37 of the Federal Constitution requires the Yang di-Pertuan Agong (King) and his deputy to take the Oath of Office before the Conference of Rulers. The Yang di-Pertuan Agong take the oath of office as follows: Next, the Deputy Yang di-Pertuan Agong take the",
+      "\"that effect in those cases established by the law. The Prime Minister and members of the Council are sworn in by the President with the following oath of office: In Lebanon, the president must take the following oath before the Parliament: Article 5 of the Constitution of Luxembourg prescribes the ",
+      "\"Atchison's Senate term had ended on March 4 as well. When the Senate of the new Congress convened on March 5 to allow new senators and the new vice president to take the oath of office, the secretary of the Senate called members to order, as the Senate had no president pro tempore. Furthermore, the"
+    ],
+    "answer": "There is no information about the oath that new citizens take in the passages.\nThe best answer is None.}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}",
+    "nli_faith": 0.0,
+    "ann_id": 44
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "388",
+    "question": "who did puerto rico belong to before the u.s",
+    "passages": [
+      "Yale University has had few notable alumni.",
+      "\"Puerto Rico \u2022 White: 18,584 \u2022 African American: 2,245 \u2022 American Indian: 65 \u2022 Asian: 26 \u2022 Native Hawaiian and Other Pacific Islander: 0 \u2022 Some Other Race: 1,585 \u2022 Two or More Races: 475 (updated 2013)** Household Income Less than $10,000 : 8,786 $10,000 to $14,999 : 3,297 $15,000 to $19,999 : 2,684",
+      "\"(19.9%), Filipinos (13.2%), Chinese (10.4%), Koreans (4.3%), Vietnamese (2.0%), Asian Indians (0.3%), Laotians (0.3%), Thais (0.2%), Cambodians (0.1%), and Indonesians (0.1%). People solely of Native Hawaiian ancestry made up 3.2% of the population. Samoan Americans made up 1.5% of the population, "
+    ],
+    "answer": "Before the U.S, Puerto Rico belonged to Spain. This information is not provided in the passages, but it is a well-known historical fact. The passages do not provide information about the historical ownership of Puerto Rico. However, based on general knowledge, it can be inferred that Puerto Rico was a Spanish colony before it was acquired by the United States in 1898. The passages do not provide any information about the historical ownership of Puerto Rico. However, based on general knowledge, it can be inferred that Puerto Rico was a Spanish colony before it was acquired by the United States in 1898. The passages do not provide any information about the historical ownership of Puerto Rico. However, based on general knowledge, it can be inferred that Puerto Rico was a Spanish colony before it was acquired by the United States in 1898. The passages do not provide any information about the historical ownership of Puerto Rico. However, based on general knowledge, it can be inferred that Puerto Rico was a Spanish colony before",
+    "nli_faith": 0.1,
+    "ann_id": 45
+  },
+  {
+    "condition": "e5_adversarial",
+    "id": "490",
+    "question": "where does a brisket come from on a cow",
+    "passages": [
+      "A Milli is an album.",
+      "\"caballo\"\"\"\" (\"\"on horseback\"\", with fried egg on top), \"\"\"\"milanesa completa\"\"\"\" (a \"\"milanesa\"\" with two fried eggs and French fries), \"\"\"\"revuelto Gramajo\"\"\"\", \"\"\"\"colch\u00f3n de arvejas\"\"\"\" (an omelette made with peas), \"\"\"\"suprema de pollo\"\"\"\" (chicken supreme, usually breaded as a \"\"milanesa\"\"), \"",
+      "\"of chili peppers and kimchi as an accompaniment. As restaurants nearly disappeared, this style of is now commonly served in drivers' restaurants and (snack restaurants). A second style of , with thicker meat and served sliced following the Japanese method, was made popular in 1983 by a restaurant c"
+    ],
+    "answer": "The passages do not mention where a brisket comes from on a cow. However, brisket is a cut of beef that comes from the breast or lower chest area of a cow. It is not mentioned in any of the passages. The passages discuss various types of sandwiches, a style of Japanese food called tonkatsu, and dairy products from Turkic nomadic groups. Brisket is not mentioned. Therefore, the best answer is not provided. \nThe best answer is Not Provided. \n#Explanation: The passages do not mention where a brisket comes from on a cow. However, brisket is a cut of beef that comes from the breast or lower chest area of a cow. It is not mentioned in any of the passages. The passages discuss various types of sandwiches, a style of Japanese food called tonkatsu, and dairy products from Turkic nomadic groups. Brisket is not mentioned. Therefore, the best answer is not provided. \n#Step 1:",
+    "nli_faith": 0.308,
+    "ann_id": 46
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "308",
+    "question": "what is final season of game of thrones",
+    "passages": [
+      "\"were programmes that only lasted for one season. \"\"Abigail and Roger\"\", \"\"The Airbase\"\", \"\"As Good Cooks Go\"\", the 1960 adaptation of \"\"The Citadel\"\", the 1956 adaptation of \"\"David Copperfield\"\", \"\"The Dark Island\"\", \"\"The Gnomes of Dulwich\"\", \"\"Hurricane\"\", \"\"For Richer...For Poorer\"\", \"\"Hereward",
+      "\"change affiliations from CBC to CTV on September 1, 2014, resulting in Thunder Bay having a CTV affiliate again. On May 20, 2015, Corus Entertainment announced an agreement with Bell Media to switch its three CBC affiliates in Ontario to CTV: CHEX-DT Peterborough, CHEX-TV-2 Oshawa, and CKWS-DT King",
+      "\"(sleep-inducing), anxiolytic (anti-anxiety), anticonvulsant, and muscle relaxant properties. High doses of many shorter-acting benzodiazepines may also cause anterograde amnesia and dissociation. These properties make benzodiazepines useful in treating anxiety, insomnia, agitation, seizures, muscle"
+    ],
+    "answer": "There is no information about the final season of Game of Thrones in any of the passages. The passages do not mention Game of Thrones at all. Therefore, the answer is \"There is no information about the final season of Game of Thrones in the passages.\" or \"The passages do not mention Game of Thrones.\" or \"No information is available about the final season of Game of Thrones in the passages.\" or \"The final season of Game of Thrones is not mentioned in the passages.\" or \"The passages do not provide information about the final season of Game of Thrones.\" or \"There is no mention of Game of Thrones in the passages.\" or \"The passages do not contain information about the final season of Game of Thrones.\" or \"No information about the final season of Game of Thrones is provided in the passages.\" or \"The final season of Game of Thrones is not discussed in the passages.\" or \"The passages do not mention the final season of Game of Thrones.\" or \"No information is available about",
+    "nli_faith": 0.333,
+    "ann_id": 47
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "114",
+    "question": "when does the champions league quarter finals start",
+    "passages": [
+      "\"reached the quarter finals after beating Werder Bremen in the second round. They eventually lost to Real Zaragoza. In the quarter-finals in the 1995 KNVB Cup, Feyenoord visited Ajax, which would win the 1994\u201395 UEFA Champions League later that season. Ajax was leading 1\u20130 when Ruud Heus equalised w",
+      "\"manager of local rival Guangzhou Evergrande. Under Eriksson, Guangzhou R&F finished third in the league in 2014, and therefore qualified for the AFC Champions League for the first time. He left Guangzhou R&F on 10 November 2014, after a disagreement in negotiations for extending his contract. Eriks",
+      "\"(in a 0\u20130 home draw with Napoli against Bologna), until his final league appearance with Juventus in 1983. At 41 years and 86 days, Zoff is also the oldest player to have appeared in a European Cup or UEFA Champions League Final. Prior to representing the senior Italian side, Zoff had won a gold me"
+    ],
+    "answer": "There is no information about the start date of the Champions League quarter finals in the passages.\nThe best answer is There is no information.}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}",
+    "nli_faith": 0.0,
+    "ann_id": 48
+  },
+  {
+    "condition": "e3_grounded",
+    "id": "287",
+    "question": "when was rosencrantz and guildenstern are dead written",
+    "passages": [
+      "\"the Lincoln Center. Besides composing music under his own name, Schickele has developed an elaborate parodic persona built around his studies of the fictional \"\"youngest and the oddest of the twenty-odd children\"\" of Johann Sebastian Bach, P.D.Q. Bach. Among the fictional composer's \"\"forgotten\"\" r",
+      "\"the play (entirely cutting Fortinbras, Rosencrantz and Guildenstern) in favour of an intensely psychological performance, partly to save time. Olivier himself stated that \"\"one great whacking cut had to be made\"\", and the cut he chose to make was the omission of Rosencrantz and Guildenstern. This w",
+      "\"the word \"\"and\"\", such as \"\"AT&T\"\" (American Telephone and Telegraph), \"\"R&D\"\" (research and development), \"\"R&B\"\" (rhythm and blues), \"\"B&B\"\" (bed and breakfast), and \"\"P&L\"\" (profit and loss). In film credits for stories, screenplays, etc., \"\"&\"\" indicates a closer collaboration than \"\"and\"\". The"
+    ],
+    "answer": "There is no information about the play \"Rosencrantz and Guildenstern are Dead\" in the passages. However, passage [2] mentions a production of \"Hamlet\" that did not include Rosencrantz and Guildenstern, and passage [5] mentions a play called \"Rosencrantz and Guildenstern are Dead\" but it is not clear if it is the same play as the one mentioned in passage [2]. Passage [5] does not provide any information about the date of the play. Passage [2] does not provide any information about the date of the production. However, the play \"Rosencrantz and Guildenstern are Dead\" was written by Tom Stoppard in 1966. This information is not present in the passages. Therefore, the answer is \"There is no information about the date of the play in the passages.\" However, since the question asks for the date of the play, and the passages",
+    "nli_faith": 0.0,
+    "ann_id": 49
+  },
+  {
+    "condition": "e1_bm25",
+    "id": "125",
+    "question": "how many seasons of rules of engagement is there",
+    "passages": [
+      "\"group of players, precedents build up about how a particular infraction of the rules should be handled. For example, \"\"Sheila just led a card when it wasn't her turn. Last week when Jo did that, we agreed ... etc.\"\" Sets of such precedents tend to become established among groups of players, and to ",
+      "\"personal property of the recipient in the event of a breakup. In most states of the United States, engagement rings are considered \"\"conditional gifts\"\" under the legal rules of property. This is an exception to the general rule that gifts cannot be revoked once properly given. See, for example, th",
+      "\"many of its spelling rules are likely due to a consistency in morphemic patterns such as adding suffixes and prefixes. Many given spellings of common morphemes usually lead to a predictable sound. In particular, a given vowel combination or diacritic generally leads to one phoneme. However, there i"
+    ],
+    "answer": "\\- There is no information about the number of seasons of the TV show \"Rules of Engagement\" in the provided passages.\nThe passages discuss various topics such as game rules, engagement rings, spelling rules, mahjong rules, and syntax, but they do not mention the TV show \"Rules of Engagement\" or its number of seasons. Therefore, it is not possible to provide an accurate answer to the question based on the provided information. However, according to external sources, the TV show \"Rules of Engagement\" has 7 seasons. But this information is not present in the passages.",
+    "nli_faith": 0.0,
+    "ann_id": 50
+  }
+]

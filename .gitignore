@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & large files
+*.tsv
+*.jsonl
+*.parquet
+psgs_w100*
+faiss_index/
+*.index
+*.npy
+*.npz
+
+# Model caches
+.cache/
+cache/
+models/
+sentence_transformers/
+
+# Results (raw outputs)
+results_local/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# macOS
+.DS_Store
+*.zip
+
+# Secrets / keys
+.env
+*.key
