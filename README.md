@@ -6,7 +6,7 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![ACL Format](https://img.shields.io/badge/paper-ACL%202023%20format-red.svg)](NLP(RAG)%20Final%20Report/final_report.pdf)
+[![Platform](https://img.shields.io/badge/platform-BU%20SCC%20%7C%20A100-lightgrey.svg)]()
 
 ---
 
@@ -45,7 +45,7 @@ Claim Extractor (sentence splitter)
 NLI Scorer (cross-encoder/nli-deberta-v3-base)
   │  entailment probabilities
   ▼
-Metrics: Faithfulness · AttrP · Soft Rel · RFG
+Metrics: Faithfulness · Soft Rel · RFG
 ```
 
 ---
@@ -58,7 +58,7 @@ Three metrics defined at the claim level using NLI entailment probability (τ = 
 
 $$\text{Faithfulness}(a, \mathcal{D}) = \frac{|\{c_i : \exists\, d_j,\; \text{nli}(d_j, c_i) > \tau\}|}{|\mathcal{C}(a)|}$$
 
-**Soft NLI Retrieval Relevance** — fraction of passages that semantically entail the gold answer (replaces brittle exact-match):
+**Soft NLI Retrieval Relevance** — fraction of passages that semantically entail the gold answer:
 
 $$\text{Rel}_\text{soft}(\mathcal{D}, q) = \frac{|\{d_j : \text{nli}(d_j, a^*) > \tau\}|}{|\mathcal{D}|}$$
 
@@ -131,19 +131,15 @@ Faithfulness **more than doubles** when adversarial passages are injected — th
 
 ![E5 Adversarial](figures/fig3_e5_adversarial.png)
 
-Adversarial FEVER passages cause faithfulness to more than double while gold-answer relevance stays unchanged.
-
 ### Faithfulness vs. NLI Threshold τ
 
 ![Tau Sensitivity](figures/fig4_tau_sensitivity.png)
-
-All conditions show consistent monotonic decrease as τ increases, confirming findings are not artifacts of τ = 0.5. The ordering — Grounded > Plain > CoT — is preserved across the full threshold range.
 
 ---
 
 ## Human Evaluation
 
-We conducted a binary faithfulness annotation study on 50 examples (κ = 0.74, substantial IAA).
+Binary faithfulness annotation study on 50 examples (κ = 0.74 inter-annotator agreement).
 
 | Condition | N | Human Faithful | κ(Gold, NLI) |
 |---|---|---|---|
@@ -152,54 +148,54 @@ We conducted a binary faithfulness annotation study on 50 examples (κ = 0.74, s
 | E5 / Adversarial | 16 | 43.8% | −0.31 |
 | **Overall** | **50** | **68.0%** | **−0.18** |
 
-**Key finding:** NLI-based metrics systematically under-count faithfulness (κ = −0.18 vs. human gold) because they cannot credit **correct abstention** — when a model appropriately declines to answer given irrelevant passages, humans judge this as faithful but NLI scores it zero.
-
 ---
 
 ## Repository Structure
 
 ```
 ├── rag_eval/
-│   ├── pipeline.py              # Core RAG pipeline (retrieve → generate → score)
-│   ├── metrics.py               # Faithfulness, AttrP, Soft Rel, RFG (Eqs. 1–3)
-│   ├── config.py                # Paths, model names, hyperparameters
-│   ├── analyze_results.py       # Aggregate and compare experiment outputs
-│   ├── plot_results.py          # Generate figures
-│   ├── compute_kappa.py         # Cohen's κ inter-annotator agreement
+│   ├── pipeline.py                  # Core RAG pipeline (retrieve → generate → score)
+│   ├── metrics.py                   # Faithfulness, Soft Rel, RFG (Eqs. 1–3)
+│   ├── config.py                    # Paths, model names, hyperparameters
+│   ├── analyze_results.py           # Aggregate and compare experiment outputs
+│   ├── plot_results.py              # Generate figures
+│   ├── compute_kappa.py             # Cohen's κ inter-annotator agreement
 │   ├── retrievers/
-│   │   ├── bm25_retriever.py    # BM25Okapi over 1M Wikipedia passages
+│   │   ├── bm25_retriever.py        # BM25Okapi over Wikipedia passages
 │   │   ├── contriever_retriever.py  # facebook/contriever + FAISS index
-│   │   └── dpr_retriever.py     # DPR retriever (baseline)
+│   │   └── dpr_retriever.py         # DPR retriever (baseline)
 │   ├── generators/
-│   │   ├── hf_generator.py      # LLaMA-3.1-8B / Mistral-7B (4-bit NF4)
-│   │   └── gpt_generator.py     # GPT-based generator (optional)
+│   │   ├── hf_generator.py          # LLaMA-3.1-8B / Mistral-7B (4-bit NF4)
+│   │   └── gpt_generator.py         # GPT-based generator (optional)
 │   ├── data/
-│   │   ├── nq_loader.py         # Natural Questions via HuggingFace
-│   │   ├── asqa_loader.py       # ASQA multi-answer dataset
-│   │   ├── fever_loader.py      # FEVER refuting passages (E5)
-│   │   ├── build_contriever_index.py  # Build FAISS index
-│   │   └── download_all.py      # Download all datasets
-│   ├── experiments/
-│   │   ├── run_e1_retriever.py  # E1: BM25 vs Contriever
-│   │   ├── run_e2_generator.py  # E2: LLaMA vs Mistral
-│   │   ├── run_e3_prompt.py     # E3: Plain / Grounded / CoT
-│   │   ├── run_e4_topk.py       # E4: k ∈ {1,3,5,10}
-│   │   ├── run_e5_adversarial.py # E5: Adversarial FEVER
-│   │   └── run_asqa.py          # ASQA evaluation
-│   └── jobs/                    # SGE cluster job scripts (BU SCC)
-│       ├── run_e1_e2.sh
-│       ├── run_final.sh
-│       └── setup_env.sh
-├── figures/                     # Generated plots
+│   │   ├── nq_loader.py             # Natural Questions via HuggingFace
+│   │   ├── asqa_loader.py           # ASQA multi-answer dataset
+│   │   ├── fever_loader.py          # FEVER refuting passages (E5)
+│   │   ├── build_contriever_index.py # Build FAISS index
+│   │   └── download_all.py          # Download all datasets
+│   └── experiments/
+│       ├── run_e1_retriever.py      # E1: BM25 vs Contriever
+│       ├── run_e2_generator.py      # E2: LLaMA vs Mistral
+│       ├── run_e3_prompt.py         # E3: Plain / Grounded / CoT
+│       ├── run_e4_topk.py           # E4: k ∈ {1,3,5,10}
+│       ├── run_e5_adversarial.py    # E5: Adversarial FEVER
+│       └── run_asqa.py              # ASQA evaluation
+├── jobs/                            # SLURM / SGE cluster job scripts (BU SCC)
+│   ├── run_e1_e2.sh
+│   ├── run_final.sh
+│   ├── run_final_interactive.sh
+│   ├── build_contriever_index.sh
+│   ├── download_data.sh
+│   └── setup_env.sh
+├── figures/                         # Generated plots
+│   ├── fig1_e3_prompt.png
+│   ├── fig2_e4_topk.png
 │   ├── fig3_e5_adversarial.png
 │   └── fig4_tau_sensitivity.png
-├── human_eval_annotator1.csv    # Annotator 1 labels (50 examples)
-├── human_eval_annotator2.csv    # Annotator 2 labels (50 examples)
-├── human_eval_sample.json       # Sampled examples with NLI scores
-├── references.bib               # Bibliography
-├── requirements.txt             # Python dependencies
-└── NLP(RAG) Final Report/       # LaTeX source + compiled PDF
-    └── final_report.pdf
+├── human_eval_annotator1.csv        # Annotator 1 labels (50 examples)
+├── human_eval_annotator2.csv        # Annotator 2 labels (50 examples)
+├── human_eval_sample.json           # Sampled examples with NLI scores
+└── requirements.txt                 # Python dependencies
 ```
 
 ---
@@ -224,33 +220,33 @@ pip install -r requirements.txt
 
 ## Usage
 
-### 1. Download Data
+### 1. Download Data & Build Index
 
 ```bash
 python rag_eval/data/download_all.py
-python rag_eval/data/build_contriever_index.py  # builds FAISS index (~1M passages)
+python rag_eval/data/build_contriever_index.py   # builds FAISS index (~1M passages)
 ```
 
 ### 2. Run Experiments
 
 ```bash
-# E1: Retriever comparison
+# E1: Retriever comparison (BM25 vs Contriever)
 python rag_eval/experiments/run_e1_retriever.py
 
-# E2: Generator comparison
+# E2: Generator comparison (LLaMA vs Mistral)
 python rag_eval/experiments/run_e2_generator.py
 
-# E3: Prompt style ablation
+# E3: Prompt style ablation (Plain / Grounded / CoT)
 python rag_eval/experiments/run_e3_prompt.py
 
 # E4: Top-k ablation
 python rag_eval/experiments/run_e4_topk.py
 
-# E5: Adversarial retrieval
+# E5: Adversarial retrieval (FEVER passages)
 python rag_eval/experiments/run_e5_adversarial.py
 ```
 
-### 3. Analyze Results & Plot
+### 3. Analyze & Plot
 
 ```bash
 python rag_eval/analyze_results.py
@@ -266,15 +262,17 @@ python rag_eval/compute_kappa.py \
     --sample human_eval_sample.json
 ```
 
-### 5. On BU SCC Cluster (SGE)
+### 5. On BU SCC Cluster (SLURM/SGE)
 
 ```bash
 qsub rag_eval/jobs/run_final.sh
+# or
+sbatch rag_eval/jobs/run_final.sh
 ```
 
 ---
 
-## Models Used
+## Models
 
 | Component | Model |
 |---|---|
@@ -285,38 +283,30 @@ qsub rag_eval/jobs/run_final.sh
 | NLI Scorer | `cross-encoder/nli-deberta-v3-base` |
 | Passage Corpus | Wikipedia DPR 100-word passages (21M passages) |
 
-All generator models run with **4-bit NF4 quantization** via `bitsandbytes` for GPU efficiency.
-
----
-
-## Paper
-
-The full paper (ACL 2023 format, 6 pages) is available in [`NLP(RAG) Final Report/final_report.pdf`](NLP(RAG)%20Final%20Report/final_report.pdf).
-
-**Estimated Score: 28–29 / 30**
+All generator models run with **4-bit NF4 quantization** via `bitsandbytes`.
 
 ---
 
 ## Authors
 
-- **Srinivasa Sai Chava** — Framework design, end-to-end pipeline, all experiments, human evaluation, paper writing
-- **Jihyeon Yun** — Related work, data preprocessing, human eval sampling, manuscript review
-- **Samyuktha Kathirvel** — Result analysis, discussion, figures, metric validation
-- **Shrishty Gupta** — Literature survey, reference organization, abstract and conclusion
+- **Srinivasa Sai Chava** — Framework design, end-to-end pipeline, all experiments, human evaluation
+- **Jihyeon Yun** — Related work, data preprocessing, human eval sampling
+- **Samyuktha Kathirvel** — Result analysis, figures, metric validation
+- **Shrishty Gupta** — Literature survey, reference organisation, abstract and conclusion
 
-Boston University, Department of Computer Science — Spring 2025
+Boston University, Department of Computer Science — Spring 2026
 
 ---
 
 ## Citation
 
 ```bibtex
-@article{chava2025ragfaithfulness,
+@article{chava2026ragfaithfulness,
   title     = {Evaluating Faithfulness and Attribution in
                Retrieval-Augmented Generation Systems},
   author    = {Chava, Srinivasa Sai and Yun, Jihyeon and
                Kathirvel, Samyuktha and Gupta, Shrishty},
-  year      = {2025},
+  year      = {2026},
   note      = {Boston University CS NLP Final Project}
 }
 ```

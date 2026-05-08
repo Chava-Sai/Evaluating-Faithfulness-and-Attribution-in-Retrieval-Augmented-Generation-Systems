@@ -32,7 +32,12 @@ sentence_transformers/
 # Results (raw outputs)
 results_local/
 
-# LaTeX build artifacts
+# LaTeX / report files (not part of code repo)
+*.tex
+*.bib
+*.sty
+*.bst
+*.pdf
 *.aux
 *.log
 *.bbl
@@ -42,6 +47,8 @@ results_local/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+NLP(RAG) Final Report/
+final_report*
 
 # macOS
 .DS_Store
