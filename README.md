@@ -1,6 +1,6 @@
 # Evaluating Faithfulness and Attribution in Retrieval-Augmented Generation Systems
 
-**Boston University CS — NLP Final Project (Spring 2025)**
+**Boston University CS — NLP Final Project (Spring 2026)**
 
 > *Does a RAG system actually use its retrieved documents, or does it silently fall back on parametric memory?*
 
