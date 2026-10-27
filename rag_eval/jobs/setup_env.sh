@@ -4,8 +4,8 @@
 
 set -e
 
-CODE_DIR="/projectnb/cs505am/students/saichava/rag_eval"
-SHARED_DIR="/projectnb/cs505am/projects/Faithfulness and Attribution in RAG"
+CODE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+SHARED_DIR="${RAG_WORK_DIR:-$CODE_DIR/../workspace}"
 
 echo "=== Creating shared directories ==="
 mkdir -p "$SHARED_DIR/datasets/nq"
@@ -18,9 +18,11 @@ mkdir -p "$SHARED_DIR/model_cache/huggingface"
 mkdir -p "$SHARED_DIR/results"
 
 echo "=== Loading modules ==="
-module load python3/3.10.12
-module load cuda/11.8
-module load java/17   # Pyserini (BM25) requires Java 11+
+if command -v module >/dev/null 2>&1; then
+    module load python3/3.10.12
+    module load cuda/11.8
+    module load java/17
+fi   # Pyserini (BM25) requires Java 11+
 
 echo "=== Creating virtual environment ==="
 cd "$CODE_DIR"

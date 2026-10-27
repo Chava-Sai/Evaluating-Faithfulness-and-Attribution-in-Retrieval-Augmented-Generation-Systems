@@ -69,7 +69,7 @@ def faithfulness(answer: str, passages: List[str], threshold: float = NLI_THRESH
 
 
 def attribution_precision(answer: str, passages: List[str], threshold: float = NLI_THRESHOLD) -> Tuple[float, dict]:
-    """Eq. 2: fraction of claims where max NLI score > threshold."""
+    """Legacy support score, equivalent to faithfulness; not citation attribution."""
     claims = extract_claims(answer)
     if not claims:
         return 0.0, {"claims": [], "max_scores": []}
@@ -117,8 +117,8 @@ def rfg(answer: str, passages: List[str], gold_answer: str,
         threshold: float = NLI_THRESHOLD) -> Tuple[float, dict]:
     """
     Eq. 3: RFG = Rel(D, q) - Faithfulness(a, D)
-    Positive RFG → good docs retrieved but generator ignored them.
-    Negative RFG → generator added information not in retrieved docs.
+    This descriptive difference does not establish the causal source of claims
+    or whether the generator ignored retrieved evidence.
     """
     faith_score, faith_detail = faithfulness(answer, passages, threshold)
     rel_score = retrieval_relevance(passages, gold_answer)

@@ -1,9 +1,9 @@
 import os
 from pathlib import Path
 
-# ── Cluster paths ────────────────────────────────────────────────────────────
-CODE_DIR    = Path("/projectnb/cs505am/students/saichava/rag_eval")
-SHARED_DIR  = Path("/projectnb/cs505am/projects/Faithfulness and Attribution in RAG")
+# ── Portable project paths ────────────────────────────────────────────────────────────
+CODE_DIR    = Path(__file__).resolve().parent
+SHARED_DIR  = Path(os.environ.get("RAG_WORK_DIR", str(CODE_DIR.parent / "workspace"))).expanduser()
 
 DATA_DIR    = SHARED_DIR / "datasets"
 INDEX_DIR   = SHARED_DIR / "indexes"

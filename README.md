@@ -1,18 +1,20 @@
 # Evaluating Faithfulness and Attribution in Retrieval-Augmented Generation Systems
 
-**Boston University CS — NLP Final Project (Spring 2026)**
+**Independent research project — Srinivasa Sai Chava (2026)**
+
+Developed by Srinivasa Sai Chava using a personally funded Google Colab Pro account. The author confirms this was a solo project completed on Google Colab Pro.
 
 > *Does a RAG system actually use its retrieved documents, or does it silently fall back on parametric memory?*
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-BU%20SCC%20%7C%20A100-lightgrey.svg)]()
+[![Platform](https://img.shields.io/badge/platform-Google%20Colab%20Pro-lightgrey.svg)]()
 
 ---
 
 ## Overview
 
-We present a comprehensive empirical evaluation of **faithfulness and attribution** in RAG systems using three custom metrics and five controlled experiments. Our pipeline measures whether language model outputs are actually grounded in retrieved evidence — not just whether they are factually correct.
+We present a comprehensive empirical evaluation of **faithfulness and attribution** in RAG systems using NLI-based support scores and five experimental comparisons. Our pipeline measures whether language model outputs are actually grounded in retrieved evidence — not just whether they are factually correct.
 
 ### Key Findings
 
@@ -21,11 +23,19 @@ We present a comprehensive empirical evaluation of **faithfulness and attributio
 | Plain prompting faithfulness | ~0.08–0.10 (very low) |
 | Grounded prompt vs. Plain | +12% relative faithfulness |
 | Chain-of-Thought vs. Plain | **−24% relative** (counterintuitive) |
-| Adversarial FEVER passages | Faithfulness **doubles** (calibration failure) |
-| Human IAA (Cohen's κ) | **0.74** (Substantial) |
-| NLI vs. Human gold (κ) | **−0.18** (NLI under-counts correct abstention) |
+| FEVER distractor insertion | Reported NLI support score increases; interpretation requires further validation |
+| Manual review | 50 examples, two labeling passes by the same author |
+| NLI vs. manual reference labels (κ) | **−0.18**, exploratory single-annotator comparison |
 
 ---
+
+## Evaluation limitations
+
+- Both annotation files were created by the same person. Reported agreement is within-annotator consistency, not independent inter-annotator agreement.
+- The current `attribution_precision` implementation is mathematically equivalent to the support-based faithfulness score. It is not a distinct citation-attribution metric.
+- FEVER claims are sampled randomly, rather than being matched contradictions for each question. Treat E5 as a distractor-insertion experiment.
+- RFG is a descriptive difference between proportions; its sign is not causal evidence about model behavior. E1/E2 differences above were corrected by subtracting the displayed means; original outputs were not regenerated.
+- Results are preliminary project findings, not peer-reviewed validation.
 
 ## Pipeline Architecture
 
@@ -52,7 +62,7 @@ Metrics: Faithfulness · Soft Rel · RFG
 
 ## Metrics
 
-Three metrics defined at the claim level using NLI entailment probability (τ = 0.5):
+Reported diagnostic scores defined at the claim level using NLI entailment probability (τ = 0.5):
 
 **Faithfulness** — fraction of generated claims supported by at least one retrieved passage:
 
@@ -66,9 +76,7 @@ $$\text{Rel}_\text{soft}(\mathcal{D}, q) = \frac{|\{d_j : \text{nli}(d_j, a^*) >
 
 $$\text{RFG} = \text{Rel}_\text{soft}(\mathcal{D}, q) - \text{Faithfulness}(a, \mathcal{D})$$
 
-- **Positive RFG** → good passages retrieved but generator ignored them
-- **Negative RFG** → generator added parametric knowledge beyond passages
-- **RFG = 0** → ideal grounding
+RFG subtracts proportions with different denominators. Its sign alone does not establish whether a generator ignored retrieval, used parametric memory, or achieved ideal grounding.
 
 ---
 
@@ -92,10 +100,10 @@ $$\text{RFG} = \text{Rel}_\text{soft}(\mathcal{D}, q) - \text{Faithfulness}(a, \
 | Condition | Retriever | Generator | Faith | Rel_soft | RFG_soft |
 |---|---|---|---|---|---|
 | No-RAG | None | LLaMA | 0.000 | 0.000 | 0.000 |
-| E1 | BM25 | LLaMA | 0.082 | 0.003 | −0.038 |
-| E1 | Contriever | LLaMA | 0.095 | 0.016 | −0.033 |
-| E2 | Contriever | LLaMA | 0.097 | 0.016 | −0.033 |
-| E2 | Contriever | Mistral | 0.078 | 0.016 | −0.023 |
+| E1 | BM25 | LLaMA | 0.082 | 0.003 | −0.079 |
+| E1 | Contriever | LLaMA | 0.095 | 0.016 | −0.079 |
+| E2 | Contriever | LLaMA | 0.097 | 0.016 | −0.081 |
+| E2 | Contriever | Mistral | 0.078 | 0.016 | −0.062 |
 
 ### E3 — Prompt Style Ablation
 
@@ -121,7 +129,7 @@ $$\text{RFG} = \text{Rel}_\text{soft}(\mathcal{D}, q) - \text{Faithfulness}(a, \
 | Normal RAG | 500 | 0.086 | 0.032 | −0.054 |
 | **Adversarial (FEVER)** | 500 | **0.205** | 0.032 | **−0.173** |
 
-Faithfulness **more than doubles** when adversarial passages are injected — the model becomes "faithfully misled". This is a **calibration failure**: high faithfulness does not imply factual accuracy.
+The reported NLI support score increases after distractor insertion. The current implementation randomly samples FEVER claims without matching them to the question, so this comparison does not establish robustness to question-specific contradictory evidence or a causal calibration failure.
 
 ---
 
@@ -139,9 +147,9 @@ Faithfulness **more than doubles** when adversarial passages are injected — th
 
 ## Human Evaluation
 
-Binary faithfulness annotation study on 50 examples (κ = 0.74 inter-annotator agreement).
+The author created both annotation files for the same 50 examples. They represent two labeling passes by one person, not two independent annotators. Agreement between these files must not be reported as inter-annotator agreement. Manual comparisons are exploratory and require independent annotation for stronger conclusions.
 
-| Condition | N | Human Faithful | κ(Gold, NLI) |
+| Condition | N | Manual Faithful | κ(Reference pass, NLI) |
 |---|---|---|---|
 | E1 / BM25 | 17 | 64.7% | −0.12 |
 | E3 / Grounded | 17 | 94.1% | +0.01 |
@@ -159,7 +167,7 @@ Binary faithfulness annotation study on 50 examples (κ = 0.74 inter-annotator a
 │   ├── config.py                    # Paths, model names, hyperparameters
 │   ├── analyze_results.py           # Aggregate and compare experiment outputs
 │   ├── plot_results.py              # Generate figures
-│   ├── compute_kappa.py             # Cohen's κ inter-annotator agreement
+│   ├── compute_kappa.py             # Within-annotator labeling-pass agreement
 │   ├── retrievers/
 │   │   ├── bm25_retriever.py        # BM25Okapi over Wikipedia passages
 │   │   ├── contriever_retriever.py  # facebook/contriever + FAISS index
@@ -180,7 +188,7 @@ Binary faithfulness annotation study on 50 examples (κ = 0.74 inter-annotator a
 │       ├── run_e4_topk.py           # E4: k ∈ {1,3,5,10}
 │       ├── run_e5_adversarial.py    # E5: Adversarial FEVER
 │       └── run_asqa.py              # ASQA evaluation
-├── jobs/                            # SLURM / SGE cluster job scripts (BU SCC)
+├── jobs/                            # optional scheduler and local runner templates
 │   ├── run_e1_e2.sh
 │   ├── run_final.sh
 │   ├── run_final_interactive.sh
@@ -192,8 +200,8 @@ Binary faithfulness annotation study on 50 examples (κ = 0.74 inter-annotator a
 │   ├── fig2_e4_topk.png
 │   ├── fig3_e5_adversarial.png
 │   └── fig4_tau_sensitivity.png
-├── human_eval_annotator1.csv        # Annotator 1 labels (50 examples)
-├── human_eval_annotator2.csv        # Annotator 2 labels (50 examples)
+├── human_eval_annotator1.csv        # First labeling pass by the author (50 examples)
+├── human_eval_annotator2.csv        # Second labeling pass by the same author (50 examples)
 ├── human_eval_sample.json           # Sampled examples with NLI scores
 └── requirements.txt                 # Python dependencies
 ```
@@ -214,7 +222,7 @@ conda activate rag_eval
 pip install -r requirements.txt
 ```
 
-**Requirements:** Python 3.10+, CUDA GPU recommended (runs on BU Shared Computing Cluster with 2× A100 GPUs).
+**Requirements:** Python 3.10+, CUDA GPU recommended. The author used Google Colab Pro; GPU availability varies by session. Scheduler templates are optional portability examples, not a record of institutional computing access.
 
 ---
 
@@ -253,7 +261,7 @@ python rag_eval/analyze_results.py
 python rag_eval/plot_results.py
 ```
 
-### 4. Human Evaluation & Cohen's κ
+### 4. Manual review and within-annotator consistency
 
 ```bash
 python rag_eval/compute_kappa.py \
@@ -262,7 +270,7 @@ python rag_eval/compute_kappa.py \
     --sample human_eval_sample.json
 ```
 
-### 5. On BU SCC Cluster (SLURM/SGE)
+### 5. Optional scheduler templates (SLURM/SGE)
 
 ```bash
 qsub rag_eval/jobs/run_final.sh
@@ -287,14 +295,12 @@ All generator models run with **4-bit NF4 quantization** via `bitsandbytes`.
 
 ---
 
-## Authors
+## Author
 
-- **Srinivasa Sai Chava** — Framework design, end-to-end pipeline, all experiments, human evaluation
-- **Jihyeon Yun** — Related work, data preprocessing, human eval sampling
-- **Samyuktha Kathirvel** — Result analysis, figures, metric validation
-- **Shrishty Gupta** — Literature survey, reference organisation, abstract and conclusion
+- **Srinivasa Sai Chava** — Research design, implementation, training, evaluation, and analysis.
+- **Computing:** Google Colab Pro (personal account).
 
-Boston University, Department of Computer Science — Spring 2026
+Author and computing metadata were corrected on 27 October 2026 following confirmation by the project author. Existing experiment outputs are retained without changing their numerical results.
 
 ---
 
@@ -304,9 +310,8 @@ Boston University, Department of Computer Science — Spring 2026
 @article{chava2026ragfaithfulness,
   title     = {Evaluating Faithfulness and Attribution in
                Retrieval-Augmented Generation Systems},
-  author    = {Chava, Srinivasa Sai and Yun, Jihyeon and
-               Kathirvel, Samyuktha and Gupta, Shrishty},
+  author    = {Chava, Srinivasa Sai},
   year      = {2026},
-  note      = {Boston University CS NLP Final Project}
+  note      = {Independent research project; unpublished}
 }
 ```

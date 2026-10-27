@@ -1,6 +1,6 @@
 """
 Sample 100 QA pairs from results for human evaluation.
-Creates a CSV that all 4 team members fill in with binary faithfulness judgments.
+Creates a CSV for two labeling passes by the project author.
 """
 
 import json
@@ -35,8 +35,8 @@ def main(seed: int = 42, n: int = 100):
             "passage_1", "passage_2", "passage_3",
             "generated_answer",
             "auto_faithfulness", "auto_attr_precision", "auto_rfg",
-            # Human annotators fill these columns (0 = not faithful, 1 = faithful)
-            "human_sai", "human_jihyeon", "human_samyu", "human_shrishty",
+            # Same author, two passes (0 = not faithful, 1 = faithful).
+            "human_sai_pass1", "human_sai_pass2",
         ])
         for r in sample:
             passages = [p["text"][:200] for p in r.get("passages", [])]
@@ -49,11 +49,11 @@ def main(seed: int = 42, n: int = 100):
                 round(r["metrics"]["faithfulness"], 3),
                 round(r["metrics"]["attribution_precision"], 3),
                 round(r["metrics"]["rfg"], 3),
-                "", "", "", "",  # human columns blank
+                "", "",  # labeling-pass columns blank
             ])
 
     print(f"Human eval sheet saved → {out_file}")
-    print("Each team member fills in their column: 1 = answer is faithful to passages, 0 = not.")
+    print("Label each pass separately: 1 = supported, 0 = not. These are not independent annotators.")
 
 
 if __name__ == "__main__":

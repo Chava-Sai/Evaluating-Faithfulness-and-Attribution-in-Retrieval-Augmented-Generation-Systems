@@ -1,23 +1,24 @@
 #!/bin/bash
 # ─────────────────────────────────────────────────────────────────────────────
 # run_final_interactive.sh
-# Run this in the VS Code Server terminal on the SCC GPU node.
+# Run this in the VS Code Server terminal on the CUDA-enabled environment.
 # Runs E3, E4, E5, ASQA, and RAGAS comparison in sequence.
-# Estimated time on H200: ~7–9 hours total (500-example "midterm" split).
+# Illustrative runtime estimate: ~7–9 hours total (500-example "midterm" split).
 #
 # Usage:
-#   cd /projectnb/cs505am/students/saichava/rag_eval
+#   cd /path/to/repository/rag_eval
 #   bash jobs/run_final_interactive.sh 2>&1 | tee logs/final_run_$(date +%s).log
 # ─────────────────────────────────────────────────────────────────────────────
 
 set -e  # stop on first error
 
-CODE="/projectnb/cs505am/students/saichava/rag_eval"
+CODE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$CODE"
 
 # ── Activate environment ─────────────────────────────────────────────────────
-module load miniconda/23.11.0 academic-ml/spring-2024 2>/dev/null || true
-conda activate spring-2024-pyt 2>/dev/null || source activate spring-2024-pyt 2>/dev/null || true
+if [[ -f "$CODE/venv/bin/activate" ]]; then
+    source "$CODE/venv/bin/activate"
+fi
 
 # ── Sanity check GPU ─────────────────────────────────────────────────────────
 echo "========================================================"

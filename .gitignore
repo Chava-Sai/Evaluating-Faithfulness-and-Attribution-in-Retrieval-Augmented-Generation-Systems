@@ -29,6 +29,9 @@ cache/
 models/
 sentence_transformers/
 
+# Local data, indexes, model cache, and generated results
+workspace/
+
 # Results (raw outputs)
 results_local/
 

@@ -6,7 +6,7 @@
 #$ -pe omp 8
 #$ -l mem_per_core=16G
 #$ -j y
-#$ -o /projectnb/cs505am/students/saichava/logs/contriever_index_$JOB_ID.log
+#$ -o logs/
 
 # Builds the Contriever FAISS index over Wikipedia DPR passages.
 # Requires GPU. Run AFTER download_data.sh completes.
@@ -15,7 +15,7 @@
 module load python3/3.10.12
 module load cuda/11.8
 
-CODE="/projectnb/cs505am/students/saichava/rag_eval"
+CODE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$CODE/venv/bin/activate"
 cd "$CODE/data"
 

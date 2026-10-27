@@ -5,16 +5,18 @@
 #$ -l gpu_c=7.0
 #$ -pe omp 16
 #$ -j y
-#$ -o /projectnb/cs505am/students/saichava/logs/final_$JOB_ID.log
+#$ -o logs/
 
 # Full experiment suite for the final report.
 # Runs E3, E4, E5, ASQA, adversarial, and human eval prep.
 
-module load python3/3.10.12
-module load cuda/11.8
-module load java/17
+if command -v module >/dev/null 2>&1; then
+    module load python3/3.10.12
+    module load cuda/11.8
+    module load java/17
+fi
 
-CODE="/projectnb/cs505am/students/saichava/rag_eval"
+CODE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 source "$CODE/venv/bin/activate"
 cd "$CODE"
 

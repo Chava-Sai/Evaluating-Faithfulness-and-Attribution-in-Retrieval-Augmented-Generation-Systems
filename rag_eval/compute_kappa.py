@@ -3,7 +3,7 @@ compute_kappa.py
 ────────────────
 Load two annotator CSV files and compute:
   - Raw agreement (%)
-  - Cohen's κ (inter-annotator agreement)
+  - Cohen's κ (within-annotator agreement between two passes)
   - Per-condition breakdown
   - Comparison of human labels vs. NLI-based faithfulness score
 
@@ -144,12 +144,12 @@ def main():
     kappa_1n  = cohen_kappa(l1, ln)
     kappa_2n  = cohen_kappa(l2, ln)
 
-    # Gold = majority vote (both annotators agree) or annotator-1 when they disagree
-    gold = [a if a == b else a for a, b in zip(l1, l2)]
+    # Reference labels use the first pass; disagreements have not been independently adjudicated.
+    gold = l1.copy()
     kappa_gn  = cohen_kappa(gold, [nli_bin.get(i, 0) for i in ids])
 
     print("=" * 60)
-    print("  Human Evaluation — Inter-Annotator Agreement")
+    print("  Manual Review — Within-Annotator Pass Agreement")
     print("=" * 60)
     print(f"  N examples              : {n}")
     print(f"  Annotator-1 faithful    : {sum(l1)}/{n}  ({sum(l1)/n*100:.1f}%)")
@@ -189,7 +189,7 @@ def main():
     print()
     print("  LaTeX snippet for paper:")
     print("  ─────────────────────────────────────────────────")
-    print(f"  \\kappa & {kappa_12:.2f} (human IAA) &"
+    print(f"  \\kappa & {kappa_12:.2f} (within-annotator consistency) &"
           f" {kappa_gn:.2f} (NLI vs gold) \\\\")
     print()
 
