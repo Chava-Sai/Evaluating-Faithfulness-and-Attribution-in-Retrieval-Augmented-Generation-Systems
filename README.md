@@ -33,7 +33,7 @@ We present a comprehensive empirical evaluation of **faithfulness and attributio
 
 - Both annotation files were created by the same person. Reported agreement is within-annotator consistency, not independent inter-annotator agreement.
 - The current `attribution_precision` implementation is mathematically equivalent to the support-based faithfulness score. It is not a distinct citation-attribution metric.
-- FEVER claims are sampled randomly, rather than being matched contradictions for each question. Treat E5 as a distractor-insertion experiment.
+- FEVER claims are sampled randomly, rather than being matched contradictions for each question. Treat E5 as a distractor-insertion experiment. For paired tests, [CoFaithfulQA](https://huggingface.co/datasets/chengpingan/CoFaithfulQA) starts from an accurate passage where the model gives a different closed-book answer. [ClashEval](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3aa291abc426d7a29fb08418c1244177-Abstract-Datasets_and_Benchmarks_Track.html) instead introduces controlled errors into the passage. The two settings test different failure modes.
 - RFG is a descriptive difference between proportions; its sign is not causal evidence about model behavior. E1/E2 differences above were corrected by subtracting the displayed means; original outputs were not regenerated.
 - Results are preliminary project findings, not peer-reviewed validation.
 
